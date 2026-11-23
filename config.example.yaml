@@ -31,10 +31,11 @@ quellen:
     # Inoffizielle Schnittstelle der Webseite marktguru.de: Die Schlüssel
     # liest der Adapter wie der Browser von der Startseite. Nur für den
     # privaten Gebrauch, auf eigenes Risiko – deshalb standardmäßig aus.
+    # Im Container einschalten mit ANGEBOTSSCANNER_QUELLEN=marktguru,aldi_nord.
     aktiv: false
     # Sekunden zwischen zwei Anfragen.
     abstand_s: 2
-    max_begriffe: 80
+    max_begriffe: 100
   aldi_nord:
     # Eigene Angebotsseite (aldi-nord.de/angebote.html), bundesweite Preise,
     # ein Abruf je Lauf. robots.txt erlaubt die Seite.

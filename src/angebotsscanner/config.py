@@ -153,6 +153,12 @@ def lade_config(pfad: Path | str | None = None) -> Config:
     # Im Container: Beispielkonfiguration aus dem Image, PLZ und Datenort aus der Umgebung
     if plz := os.environ.get("ANGEBOTSSCANNER_PLZ", "").strip():
         config.standort.plz = plz
+    # Genau diese Quellen aktiv, z. B. „marktguru,aldi_nord“
+    if quellen := os.environ.get("ANGEBOTSSCANNER_QUELLEN", "").strip():
+        aktiv = {q.strip() for q in quellen.split(",") if q.strip()}
+        for name in aktiv | set(config.quellen):
+            einstellung = config.quellen.setdefault(name, QuelleEinstellung())
+            einstellung.aktiv = name in aktiv
     if daten := os.environ.get("ANGEBOTSSCANNER_DATEN", "").strip():
         config.datenverzeichnis = Path(daten)
     if not config.datenverzeichnis.is_absolute():

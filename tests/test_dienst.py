@@ -89,7 +89,10 @@ def test_plz_und_daten_aus_der_umgebung(monkeypatch, tmp_path):
 
     monkeypatch.setenv("ANGEBOTSSCANNER_PLZ", "20095")
     monkeypatch.setenv("ANGEBOTSSCANNER_DATEN", str(tmp_path))
+    monkeypatch.setenv("ANGEBOTSSCANNER_QUELLEN", "marktguru")
     config = lade_config(Path(__file__).parents[1] / "config.example.yaml")
     assert config.standort.plz == "20095"
     assert config.datenverzeichnis == tmp_path
+    assert config.quelle("marktguru").aktiv
+    assert not config.quelle("aldi_nord").aktiv
     assert config.betrieb.laeufe == ["sonntag 19:00", "mittwoch 19:00"]

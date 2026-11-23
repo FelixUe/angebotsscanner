@@ -14,6 +14,7 @@ services:
     environment:
       TZ: ${TZ:-Europe/Berlin}
       ANGEBOTSSCANNER_PLZ: ${ANGEBOTSSCANNER_PLZ:?PLZ in der .env setzen}
+      ANGEBOTSSCANNER_QUELLEN: ${ANGEBOTSSCANNER_QUELLEN:-}
       MEALIE_URL: ${MEALIE_URL:-http://mealie:9000}
       MEALIE_TOKEN: ${MEALIE_TOKEN:?Mealie-Token in der .env setzen}
     volumes:
