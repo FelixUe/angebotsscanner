@@ -46,6 +46,19 @@ Sperrt eine Quelle den Zugriff, wird das gemeldet und nicht umgangen.
 8. Rohdaten einer Quelle ansehen: `.venv/bin/angebotsscanner --config config.yaml angebote butter`
 9. Preishistorie und Cache landen in `daten/`. Je öfter der Scanner läuft, desto
    besser wird die Bewertung.
+10. Mit Mealie: `cp .env.example .env`, URL und API-Token eintragen, dann
+    `set -a; . ./.env; set +a; .venv/bin/angebotsscanner --config config.yaml mealie --dry-run`
+    und ohne `--dry-run` schreiben.
+
+## Mealie
+
+`angebotsscanner mealie` liest den Wochenzettel, den der Essensplaner in die
+Liste „Wocheneinkauf“ schreibt, und hängt passende Angebote an die Zeile an:
+`… · 🏷 2× Speisezwiebeln 2 kg: EDEKA 1,99 € bis Sa 28.11.`. Alles vor 🏷
+gehört dem Essensplaner, alles danach dem Scanner; Markt, Preis und Gültigkeit
+stehen zusätzlich in `extras.angebotsscanner_*`. Vorrat ohne eigene Zeile
+bekommt eine neue unter dem Label „Angebote“. Abgehakte Zeilen bleiben
+unangetastet, abgelaufene Hinweise verschwinden, ein zweiter Lauf ändert nichts.
 
 ## Ausgabe
 

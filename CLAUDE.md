@@ -27,11 +27,12 @@ src/angebotsscanner/
   historie.py    Preishistorie je Artikel (Slug) in SQLite
   bewertung.py   Ersparnis, Relevanz × Ersparnis × Haltbarkeit, Auswahl
   scanner.py     ein Lauf von Bedarf bis Ergebnis
-  cli.py         `angebotsscanner scan | angebote`
+  mealie.py      Bedarf aus der Mealie-Liste lesen, Angebote hineinschreiben
+  cli.py         `angebotsscanner scan | angebote | mealie`
 tests/fixtures/  gekürzte echte Antworten (KW 48/2026)
 ```
 
-Datenfluss: Bedarf (JSON vom Planer bzw. später Mealie-Liste) + `vorrat.yaml`
+Datenfluss: Bedarf (Mealie-Liste „Wocheneinkauf“ oder JSON) + `vorrat.yaml`
 → `zusammenfassen` → Suchbegriffe → Quellen → Vorfilter (Einkaufstag,
 App-Pflicht, Ausschlüsse, regionale Doppel) → Matching → Bewertung →
 bestes Angebot je Bedarf → ein Vorschlag je Angebot.
@@ -44,6 +45,7 @@ uv venv --python 3.12 && uv pip install -e ".[dev]"
 .venv/bin/ruff check . && .venv/bin/ruff format --check .
 .venv/bin/angebotsscanner --config config.yaml scan --bedarf bedarf.json --vorrat vorrat.yaml
 .venv/bin/angebotsscanner --config config.yaml angebote butter   # Rohsicht einer Quelle
+set -a; . ./.env; set +a; .venv/bin/angebotsscanner --config config.yaml mealie --dry-run
 ```
 
 ## Konventionen
@@ -87,8 +89,10 @@ uv venv --python 3.12 && uv pip install -e ".[dev]"
 1. ✅ MVP: Marktguru (EDEKA, Penny), Matching, Historie, CLI/JSON
 2. ✅ Aldi-Nord-Adapter (`aldi-nord.de/angebote.html`, eingebettetes `__NEXT_DATA__`,
    bundesweit, Wellen Mo und Do, Non-Food über `ohne_gruppen`)
-3. Essensplaner schreibt den vollständigen Wochenzettel in die Mealie-Liste
+3. ✅ Essensplaner schreibt den vollständigen Wochenzettel in die Mealie-Liste
    „Wocheneinkauf“ (Repo `FelixUe/essensplaner`, Erweiterung von `mealie-sync`)
-4. Scanner liest Bedarf aus dieser Liste und schreibt Angebote hinein
-   (Notiz „🏷 …“, Metadaten in `extras`, abgehakte Einträge nie anfassen)
+4. ✅ Scanner liest Bedarf aus dieser Liste und schreibt Angebote hinein
+   (Notiz „🏷 …“, Metadaten in `extras`, abgehakte Einträge nie anfassen).
+   Bindestrich-Komposita zählen nach dem Grundwort („Sahne-Joghurt“ ≠ Sahne);
+   Fehltreffer aus Live-Läufen landen als `nicht`-Regel in `config.example.yaml`
 5. Betrieb: Dockerfile, Compose im Netz `proxy`, So + Mi 19:00, Healthcheck
