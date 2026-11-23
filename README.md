@@ -78,6 +78,14 @@ unangetastet, abgelaufene Hinweise verschwinden, ein zweiter Lauf ändert nichts
 }
 ```
 
+## Betrieb im Container
+
+`cp .env.example .env`, PLZ und Mealie-Token eintragen, dann
+`docker compose up -d --build`. Der Container läuft sonntags und mittwochs um
+19:00 (`betrieb.laeufe` in der Konfiguration) und braucht keinen Port, nur
+Zugang zu Mealie. `docker compose exec angebotsscanner angebotsscanner gesund`
+zeigt den letzten Lauf.
+
 ## Entwicklung
 
 ```bash

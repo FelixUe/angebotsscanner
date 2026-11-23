@@ -28,6 +28,7 @@ src/angebotsscanner/
   bewertung.py   Ersparnis, Relevanz × Ersparnis × Haltbarkeit, Auswahl
   scanner.py     ein Lauf von Bedarf bis Ergebnis
   mealie.py      Bedarf aus der Mealie-Liste lesen, Angebote hineinschreiben
+  dienst.py      Zeitplan, Zustand in daten/dienst.json, Healthcheck
   cli.py         `angebotsscanner scan | angebote | mealie`
 tests/fixtures/  gekürzte echte Antworten (KW 48/2026)
 ```
@@ -95,4 +96,8 @@ set -a; . ./.env; set +a; .venv/bin/angebotsscanner --config config.yaml mealie 
    (Notiz „🏷 …“, Metadaten in `extras`, abgehakte Einträge nie anfassen).
    Bindestrich-Komposita zählen nach dem Grundwort („Sahne-Joghurt“ ≠ Sahne);
    Fehltreffer aus Live-Läufen landen als `nicht`-Regel in `config.example.yaml`
-5. Betrieb: Dockerfile, Compose im Netz `proxy`, So + Mi 19:00, Healthcheck
+5. ✅ Betrieb: `angebotsscanner dienst` (So + Mi 19:00, nachholen 12 h, 3 Versuche),
+   Healthcheck `gesund`, Image mit config.example.yaml; PLZ, Quellen und Datenort per
+   Umgebung (`ANGEBOTSSCANNER_PLZ`, `_QUELLEN`, `_DATEN`). Läuft auf dem NUC unter
+   `/opt/angebotsscanner`, Rollout bisher per `git archive` (siehe Homelab-Repo)
+6. GitHub-Repo, CI und automatischer Rollout wie beim Essensplaner
