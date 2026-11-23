@@ -15,6 +15,7 @@ import pytest
 import yaml
 
 from angebotsscanner.config import Config
+from angebotsscanner.historie import Historie
 from angebotsscanner.http import Abrufer
 from angebotsscanner.quellen.marktguru import Marktguru
 
@@ -76,3 +77,10 @@ def abrufer(fake: FakeMarktguru):
 @pytest.fixture
 def marktguru(abrufer: Abrufer, config: Config) -> Marktguru:
     return Marktguru(abrufer, config.maerkte_fuer("marktguru"), config.apps)
+
+
+@pytest.fixture
+def historie(tmp_path: Path):
+    h = Historie(tmp_path / "preise.sqlite")
+    yield h
+    h.schliessen()
