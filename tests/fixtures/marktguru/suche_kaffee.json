@@ -1,0 +1,3541 @@
+{
+ "totalResults": 84,
+ "results": [
+  {
+   "brand": {
+    "name": "Käfer Kaffee"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25826887,
+   "description": "Ganze Bohnen, versch. Sorten, je 1.000 g",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 9.99,
+   "oldPrice": null,
+   "referencePrice": 9.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-26T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1170226,
+    "name": "Caffé",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25885677,
+   "description": "HINWEIS: MIT KAUFLAND CARD XTRA 3.99€ versch. Sorten, je 8 - 21 Tassen je 118 - 268-g-Packg.",
+   "volume": 0.268,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 4.29,
+   "oldPrice": null,
+   "referencePrice": 16.01,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 675557,
+    "name": "Tassimo Kaffee Kapseln",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25866697,
+   "description": "je 200-g-Glas",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 6.99,
+   "oldPrice": null,
+   "referencePrice": 34.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 455428,
+    "name": "Gold Löslicher Kaffee",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Melitta"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25862217,
+   "description": "gemahlen, versch. Sorten je 500-g-Packg.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 4.99,
+   "oldPrice": null,
+   "referencePrice": 9.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 317505,
+    "name": "Kaffee",
+    "description": "~twxde~ ~twxwde~ ~twxnw~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25848002,
+   "description": "je 120-g-Pckg. oder 2in1 Classic je 124-g-Pckg.",
+   "volume": 0.12,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 16.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 846159,
+    "name": "Kaffeesticks Classic 3in1",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25838287,
+   "description": "je 104-g-Pckg. oder Tassimo Morning Café XL Kaffeekapseln je 163,8-g-Pckg.",
+   "volume": 0.104,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 4.29,
+   "oldPrice": null,
+   "referencePrice": 41.25,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1168686,
+    "name": "Lungo Kaffeekapseln Intenso",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-To Go"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25867427,
+   "description": "versch. Sorten, gekühlt je 250-ml-Becher",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.59,
+   "oldPrice": null,
+   "referencePrice": 2.36,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 516487,
+    "name": "Kaffeemilchmischgetränke",
+    "description": null
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Eduscho"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25866687,
+   "description": "Crema Kräftig oder Variation, ganze Bohnen je 1-kg-Beutel",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 12.99,
+   "oldPrice": null,
+   "referencePrice": 12.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 927603,
+    "name": "Kaffeepads Caffè Crema",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Nestlé"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25846017,
+   "description": "löslicher Bohnenkaffee, je 200-g-Glas",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 5.99,
+   "oldPrice": null,
+   "referencePrice": 29.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 97536,
+    "name": "Nescafé Classic",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Darboven"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25845987,
+   "description": "Ganze Bohne oder Classic gemahlen, je 500-g-Pckg.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 6.49,
+   "oldPrice": null,
+   "referencePrice": 12.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 101619,
+    "name": "Eilles Gourmet Café",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Melitta"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25845977,
+   "description": "ganze Bohnen, versch. Sorten, je 1000-g-Btl.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 12.99,
+   "oldPrice": null,
+   "referencePrice": 12.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 410378,
+    "name": "Barista",
+    "description": "~twxde~ ~twxwde~ ~twxnw~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Emmi"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25842577,
+   "description": "versch. Sorten, koffeinhaltig, je 230-ml-Becher",
+   "volume": 0.23,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.39,
+   "oldPrice": null,
+   "referencePrice": 6.04,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 75950,
+    "name": "Caffè Latte",
+    "description": "~twxch~ ~twxalp~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Dallmayr"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25825122,
+   "description": "Versch. Sorten, gemahlen, je 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 5.99,
+   "oldPrice": null,
+   "referencePrice": 11.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 95309,
+    "name": "Classic Kaffee",
+    "description": "~twxde~ ~twxsde~ ~twxby~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mövenpick"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25885797,
+   "description": "edle Mischung aus 100 % Arabica-Bohnen, intensiv, ganze Bohnen je 1-kg-Packg.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 12.99,
+   "oldPrice": null,
+   "referencePrice": 12.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 31730,
+    "name": "Caffè Crema",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Senseo"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25818572,
+   "description": "Versch. Sorten, je 111 g",
+   "volume": 0.111,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.22,
+   "oldPrice": null,
+   "referencePrice": 20.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 311555,
+    "name": "Kaffeepads",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Käfer Kaffee"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25855582,
+   "description": "ganze Kaffeebohnen, versch. Sorten 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 10.99,
+   "oldPrice": null,
+   "referencePrice": 10.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1170226,
+    "name": "Caffé",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Lavazza"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25826002,
+   "description": "HINWEIS: MIT PENNY APP 12.99, Ganze Bohnen, versch. Sorten, je 1.000 g",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 13.99,
+   "oldPrice": null,
+   "referencePrice": 13.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 821445,
+    "name": "Espresso Crema E Aroma",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Starbucks"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25819517,
+   "description": "oder Matcha Latte Versch. Sorten, je 220 ml",
+   "volume": 0.22,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 6.77,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 662167,
+    "name": "Chilled Coffee",
+    "description": "~twxus~ ~twxnam~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25818612,
+   "description": "HINWEIS: MIT PENNY APP Gemahlen, versch. Sorten, je 500 g ohne Penny App 9.99",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 5.99,
+   "oldPrice": null,
+   "referencePrice": 11.98,
+   "requiresLoyalityMembership": true,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 65655,
+    "name": "Krönung",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Senseo"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126811",
+     "name": "ROSSMANN"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25851507,
+   "description": "16 Stück/92 - 111 g",
+   "volume": 0.111,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.22,
+   "oldPrice": 3.99,
+   "referencePrice": 20.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-27T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 311555,
+    "name": "Kaffeepads",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126811",
+     "name": "ROSSMANN"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25835667,
+   "description": "HINWEIS: MIT ROSSMANN APP COUPON  4.95 € 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 5.49,
+   "oldPrice": null,
+   "referencePrice": 10.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-27T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1102584,
+    "name": "Krönung Filterkaffee",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Nescafé"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25878187,
+   "description": "HINWEIS: MIT LIDL PLUS APP 4.99 € Versch. Sorten. Je 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 5.99,
+   "oldPrice": null,
+   "referencePrice": 29.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 854345,
+    "name": "Kaffee Classic",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mövenpick"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25872952,
+   "description": "Gemahlen. Je 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 6.49,
+   "oldPrice": null,
+   "referencePrice": 12.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-12-02T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 141516,
+    "name": "Kaffee Der Himmlische",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mount Hagen"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126944",
+     "name": "budni"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25796272,
+   "description": "ganze Bohne versch. Sorten 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 18.99,
+   "oldPrice": 23.49,
+   "referencePrice": 18.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1379902,
+    "name": "Kaffee",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Laudatio"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126811",
+     "name": "ROSSMANN"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25851487,
+   "description": "1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 10.99,
+   "oldPrice": null,
+   "referencePrice": 10.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-27T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1041747,
+    "name": "Ganze Bohne Caffè Crema",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126811",
+     "name": "ROSSMANN"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25835687,
+   "description": "8 - 16 Tassen/ 128 - 268 g",
+   "volume": 0.268,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 4.29,
+   "oldPrice": null,
+   "referencePrice": 16.01,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-27T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 141329,
+    "name": "Tassimo",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Dallmayr"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126944",
+     "name": "budni"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25792172,
+   "description": "gemahlen 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 6.99,
+   "oldPrice": 10.49,
+   "referencePrice": 13.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 366438,
+    "name": "Prodomo Kaffee",
+    "description": "~twxde~ ~twxsde~ ~twxby~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Lavazza"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25764397,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER ausgewählte Sorten ganze Bohnen je 1 kg Beutel",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 15.19,
+   "oldPrice": null,
+   "referencePrice": 15.19,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 364877,
+    "name": "Kaffee",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Darboven"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25844272,
+   "description": "HINWEIS: MIT EDEKA APP 6.49 € Classic oder Eilles Gourmet gemahlener Bohnenkaffee vakuumverpackt je 500-g-Packung",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 6.99,
+   "oldPrice": null,
+   "referencePrice": 13.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 315315,
+    "name": "Idee Kaffee",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Darboven"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25829022,
+   "description": "HINWEIS: MIT EDEKA APP 6.49 € Mövenpick Edle Komposition, Idee Kaffee Classic oder Eilles Gourmet gemahlener Bohnenkaffee 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 6.99,
+   "oldPrice": null,
+   "referencePrice": 13.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 318260,
+    "name": "Eilles Kaffee",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Darboven"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25839862,
+   "description": "HINWEIS: MIT EDEKA  APP 6.49,  Eilles Gourmet oder Mövenpick Edle Komposition gemahlener Bohnenkaffee vakuumverpackt je 500-g-Packung",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 6.99,
+   "oldPrice": null,
+   "referencePrice": 13.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 347738,
+    "name": "Idee Kaffee Classic",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Darboven"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25832382,
+   "description": "HINWEIS: MIT EDEKA APP 6.49 € oder Eilles Gourmet, Bohnenkaffee 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 6.99,
+   "oldPrice": null,
+   "referencePrice": 13.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 347738,
+    "name": "Idee Kaffee Classic",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25831907,
+   "description": "versch. Sorten, 36 - 180 g",
+   "volume": 0.18,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 11.06,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1381582,
+    "name": "löslicher Kaffee Tassenportion",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Darboven"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25842322,
+   "description": "HINWEIS: MIT EDEKA APP 6.49 € Mövenpick Edle Komposition oder Eilles Gourmet gemahlener Bohnenkaffee 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 6.99,
+   "oldPrice": 8.99,
+   "referencePrice": 13.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 347738,
+    "name": "Idee Kaffee Classic",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25833887,
+   "description": "Tassenportion versch. Sorten, 36 - 180 g",
+   "volume": 0.18,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 11.06,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1381582,
+    "name": "löslicher Kaffee Tassenportion",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25828162,
+   "description": "Tassenportion, versch. Sorten je 35- bis 180-g-Packung",
+   "volume": 0.035,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 56.86,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 244113,
+    "name": "Löslicher Kaffee",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mövenpick"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25832252,
+   "description": "gemahlen oder Ganze Bohnen, versch. Sorten 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 5.99,
+   "oldPrice": null,
+   "referencePrice": 11.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 80672,
+    "name": "Kaffee",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Melitta"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25831917,
+   "description": "HINWEIS: MIT EDEKA APP 10.99 € ganze Bohnen, versch. Sorten, 1000 g",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 11.99,
+   "oldPrice": null,
+   "referencePrice": 11.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 151511,
+    "name": "Bella Crema Kaffee",
+    "description": "~twxde~ ~twxwde~ ~twxnw~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Melitta"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25827812,
+   "description": "HINWEIS: MIT EDEKA APP 10.99 € ganze Bohnen, versch. Sorten 1000 g",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 11.99,
+   "oldPrice": null,
+   "referencePrice": 11.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 151511,
+    "name": "Bella Crema Kaffee",
+    "description": "~twxde~ ~twxwde~ ~twxnw~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Melitta"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127134",
+     "name": "EDEKA Frischemarkt"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25808662,
+   "description": "HINWEIS: MIT EDEKA APP 10.99 € versch. Sorten 1000 g",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 11.99,
+   "oldPrice": null,
+   "referencePrice": 11.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 151511,
+    "name": "Bella Crema Kaffee",
+    "description": "~twxde~ ~twxwde~ ~twxnw~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Cafèt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25859017,
+   "description": "versch. Sorten 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 4.99,
+   "oldPrice": null,
+   "referencePrice": 24.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 804466,
+    "name": "Löslicher Kaffee",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Cafèt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25857887,
+   "description": "gemahlen 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 4.49,
+   "oldPrice": null,
+   "referencePrice": 8.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 834687,
+    "name": "Kaffee Extra",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Cafèt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25858992,
+   "description": "löslicher Bohnenkaffee, versch. Sorten 140 – 180 g",
+   "volume": 0.14,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 14.21,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 732083,
+    "name": "Kaffee-Sticks",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Cafèt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25857832,
+   "description": "gemahlen 2 x 250 g",
+   "volume": 0.25,
+   "quantity": 2.0,
+   "isMultiProduct": false,
+   "price": 5.99,
+   "oldPrice": null,
+   "referencePrice": 11.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1361542,
+    "name": "Der Beste Kaffee",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Cafèt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25857872,
+   "description": "Naturmild oder entkoffeiniert Kaffee gemahlen 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 5.49,
+   "oldPrice": null,
+   "referencePrice": 10.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1218454,
+    "name": "Kaffee Crema Gold",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25881387,
+   "description": "Versch. Sorten. Je 132.8/144/147/160/ 163.8/184/260/264/ 268 g",
+   "volume": 0.268,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 4.29,
+   "oldPrice": null,
+   "referencePrice": 16.01,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 141329,
+    "name": "Tassimo",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mövenpick"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25878252,
+   "description": "Espresso Caffè in versch. Sorten. Ganze Bohnen. Je 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 13.99,
+   "oldPrice": null,
+   "referencePrice": 13.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 31730,
+    "name": "Caffè Crema",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Dallmayr"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25788912,
+   "description": "Versch. Sorten. Ganze Bohnen. Je 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 11.99,
+   "oldPrice": null,
+   "referencePrice": 11.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-26T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 690363,
+    "name": "Home Barista",
+    "description": "Home Barista"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Krüger"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25772172,
+   "description": "Versch. Sorten. Je 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.79,
+   "oldPrice": null,
+   "referencePrice": 5.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 65949,
+    "name": "Family Cappuccino",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Dallmayr"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25843702,
+   "description": "gemahlen oder ganze Bohnen, versch. Sorten 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 5.88,
+   "oldPrice": null,
+   "referencePrice": 11.76,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-27T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 366438,
+    "name": "Prodomo Kaffee",
+    "description": "~twxde~ ~twxsde~ ~twxby~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Lavazza"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126944",
+     "name": "budni"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25795267,
+   "description": "HINWEIS: MIT BUDNI APP 2.89 € versch. Sorten 10 Stück 57 g",
+   "volume": 0.057,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 3.29,
+   "oldPrice": 3.99,
+   "referencePrice": 57.72,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1336178,
+    "name": "Espresso Kapseln",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Dallmayr"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25831902,
+   "description": "versch. Sorten, 56 g",
+   "volume": 0.056,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.69,
+   "oldPrice": null,
+   "referencePrice": 48.04,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 661377,
+    "name": "Capsa Kaffeekapseln",
+    "description": "~twxde~ ~twxsde~ ~twxby~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Lavazza"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25764442,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER versch. Sorten je 80er Packung",
+   "volume": 1.0,
+   "quantity": 80.0,
+   "isMultiProduct": true,
+   "price": 16.99,
+   "oldPrice": null,
+   "referencePrice": 0.21,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1142551,
+    "name": "Alu-Caps",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Cafèt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25859012,
+   "description": "versch. Sorten 136 – 194,4 g",
+   "volume": 0.136,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 3.99,
+   "oldPrice": null,
+   "referencePrice": 29.34,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 155329,
+    "name": "Kaffeekapseln",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Cafèt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25857797,
+   "description": "versch. Sorten 280 g",
+   "volume": 0.28,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 4.79,
+   "oldPrice": null,
+   "referencePrice": 17.11,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 425344,
+    "name": "Cafe Crema Kaffeepads",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Emmi"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25834412,
+   "description": "versch. Sorten 230 ml",
+   "volume": 0.23,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 6.48,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 75950,
+    "name": "Caffè Latte",
+    "description": "~twxch~ ~twxalp~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Tchibo"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25831897,
+   "description": "versch. Sorten, 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 7.99,
+   "oldPrice": null,
+   "referencePrice": 15.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 139,
+    "name": "Feine Milde",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Lavazza"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25831247,
+   "description": "versch. Sorten 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 12.99,
+   "oldPrice": null,
+   "referencePrice": 12.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 146543,
+    "name": "Caffè Crema Classico",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mövenpick"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127134",
+     "name": "EDEKA Frischemarkt"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25810817,
+   "description": "HINWEIS: MIT EDEKA APP 6.49 € Darboven, Idee Kaffee Classic oder Eilles Gourmet, gemahlener Bohnenkaffee, 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 6.99,
+   "oldPrice": null,
+   "referencePrice": 13.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 314489,
+    "name": "Edle Komposition",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Cafèt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25859002,
+   "description": "versch. Sorten 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 3.49,
+   "oldPrice": null,
+   "referencePrice": 6.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 804465,
+    "name": "Family Cappuccino",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Nescafé"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25855362,
+   "description": "HINWEIS: MIT NETTO PLUS APP 4.29 € versch. Sorten 500 ml",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 4.79,
+   "oldPrice": null,
+   "referencePrice": 9.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1221260,
+    "name": "Espresso Concentrate",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Jacobs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 456,
+     "name": "Kaffee"
+    }
+   ],
+   "id": 25842437,
+   "description": "200 g löslicher Bohnenkaffee",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 5.99,
+   "oldPrice": null,
+   "referencePrice": 29.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-26T23:00:00Z",
+     "to": "2026-11-27T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 174691,
+    "name": "Gold",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bärenmarke"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25771782,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER  8 % Fett 170 g Flasche",
+   "volume": 0.17,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.79,
+   "oldPrice": null,
+   "referencePrice": 4.65,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 648918,
+    "name": "Kaffee-Milch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Villeroy & Boch"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126927",
+     "name": "XXXLutz"
+    }
+   ],
+   "categories": [
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25850722,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 18.0,
+   "isMultiProduct": false,
+   "price": 199.9,
+   "oldPrice": null,
+   "referencePrice": 11.11,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-20T23:00:00Z",
+     "to": "2026-11-27T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1088812,
+    "name": "New Moon Kaffee-Service 18tlg.",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Krups"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 464,
+     "name": "Kaffeemaschinen"
+    }
+   ],
+   "id": 25882827,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 233.0,
+   "oldPrice": null,
+   "referencePrice": 233.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 618119,
+    "name": "Kaffeevollautomat",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Russell Hobbs"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 464,
+     "name": "Kaffeemaschinen"
+    }
+   ],
+   "id": 25770622,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 19.99,
+   "oldPrice": null,
+   "referencePrice": 19.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 115646,
+    "name": "Kaffeemaschine",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Tognana"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 464,
+     "name": "Kaffeemaschinen"
+    }
+   ],
+   "id": 25769322,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 12.99,
+   "oldPrice": null,
+   "referencePrice": 12.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1377757,
+    "name": "Mokka-Kaffeemaschine Riflex Induction",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Philips"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 464,
+     "name": "Kaffeemaschinen"
+    }
+   ],
+   "id": 25769247,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 59.99,
+   "oldPrice": null,
+   "referencePrice": 59.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 648488,
+    "name": "Senseo Select Kaffeemaschine CSA230/50",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bartscher"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 464,
+     "name": "Kaffeemaschinen"
+    }
+   ],
+   "id": 25771427,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 179.0,
+   "oldPrice": null,
+   "referencePrice": 179.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 95156,
+    "name": "Kaffeemaschine Contessa 1002",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rewe Feine Welt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 181,
+     "name": "Desserts"
+    }
+   ],
+   "id": 25847577,
+   "description": "versch. Sorten, je 90-g-Glas",
+   "volume": 0.09,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.59,
+   "oldPrice": null,
+   "referencePrice": 17.67,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1383132,
+    "name": "Feines Kaffeedessert",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127024",
+     "name": "Dehner Garten-Center"
+    }
+   ],
+   "categories": [
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25798142,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 18.0,
+   "isMultiProduct": false,
+   "price": 59.99,
+   "oldPrice": 69.99,
+   "referencePrice": 3.33,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-17T23:00:00Z",
+     "to": "2026-11-23T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1380267,
+    "name": "KAFFEESERVICE WINTERGLANZ 18tlg.",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "SilverCrest"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 464,
+     "name": "Kaffeemaschinen"
+    }
+   ],
+   "id": 25882777,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 229.0,
+   "oldPrice": null,
+   "referencePrice": 229.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1145386,
+    "name": "Espressomaschine  SEMST 1500 A1",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126924",
+     "name": "Woolworth"
+    }
+   ],
+   "categories": [
+    {
+     "id": 261,
+     "name": "Weihnachtsdeko"
+    },
+    {
+     "id": 298,
+     "name": "Besteck"
+    }
+   ],
+   "id": 25745417,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 2.0,
+   "isMultiProduct": false,
+   "price": 1.5,
+   "oldPrice": null,
+   "referencePrice": 0.75,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-12T23:00:00Z",
+     "to": "2026-11-23T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1375717,
+    "name": "Weihnachts Kaffeelöffel",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25835867,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.99,
+   "oldPrice": null,
+   "referencePrice": 2.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-24T13:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 166669,
+    "name": "Kaffeebecher",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 464,
+     "name": "Kaffeemaschinen"
+    }
+   ],
+   "id": 25855137,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 11.11,
+   "oldPrice": null,
+   "referencePrice": 11.11,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 338799,
+    "name": "Espressokocher",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126753",
+     "name": "Opti Wohnwelt"
+    }
+   ],
+   "categories": [
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25710782,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 18.0,
+   "isMultiProduct": false,
+   "price": 34.99,
+   "oldPrice": null,
+   "referencePrice": 1.94,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-11T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 64899,
+    "name": "Kaffeeservice 18-tlg.",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Seltmann Weiden"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126753",
+     "name": "Opti Wohnwelt"
+    }
+   ],
+   "categories": [
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25710752,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 18.0,
+   "isMultiProduct": false,
+   "price": 149.0,
+   "oldPrice": null,
+   "referencePrice": 8.28,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-11T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 905507,
+    "name": "Kaffeeservice 18-teilig",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Seltmann Weiden"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126753",
+     "name": "Opti Wohnwelt"
+    }
+   ],
+   "categories": [
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25710747,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 18.0,
+   "isMultiProduct": false,
+   "price": 129.0,
+   "oldPrice": null,
+   "referencePrice": 7.17,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-11T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 50350,
+    "name": "Kaffeeservice 18-tlg.",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Krups"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 467,
+     "name": "Küchengeräte"
+    }
+   ],
+   "id": 25769232,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 199.0,
+   "oldPrice": null,
+   "referencePrice": 199.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 814778,
+    "name": "Kaffeevollautomat EA8100",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126944",
+     "name": "budni"
+    }
+   ],
+   "categories": [
+    {
+     "id": 261,
+     "name": "Weihnachtsdeko"
+    },
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25798622,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 8.99,
+   "oldPrice": 9.99,
+   "referencePrice": 8.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1380397,
+    "name": "Weihnachtsmann & Co. KG Kaffeebecher to go",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Cafèt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 250,
+     "name": "Küchenzubehör"
+    }
+   ],
+   "id": 25857902,
+   "description": "120 Stück",
+   "volume": 1.0,
+   "quantity": 120.0,
+   "isMultiProduct": false,
+   "price": 0.95,
+   "oldPrice": null,
+   "referencePrice": 0.01,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 220124,
+    "name": "Kaffeefilter",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126992",
+     "name": "mömax"
+    }
+   ],
+   "categories": [
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25606502,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 12.0,
+   "isMultiProduct": true,
+   "price": 40.0,
+   "oldPrice": null,
+   "referencePrice": 3.33,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-01T23:00:00Z",
+     "to": "2026-11-29T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1249442,
+    "name": "Kaffeeservice Florine 12-tlg.",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126992",
+     "name": "mömax"
+    }
+   ],
+   "categories": [
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25606472,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 12.0,
+   "isMultiProduct": true,
+   "price": 55.0,
+   "oldPrice": null,
+   "referencePrice": 4.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-01T23:00:00Z",
+     "to": "2026-11-29T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1199922,
+    "name": "Tafel- & Kaffeeservice Valencia",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Peill+Putzler"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126831",
+     "name": "Sconto SB"
+    }
+   ],
+   "categories": [
+    {
+     "id": 296,
+     "name": "Essgeschirr"
+    }
+   ],
+   "id": 25723412,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 20.0,
+   "isMultiProduct": false,
+   "price": 69.99,
+   "oldPrice": null,
+   "referencePrice": 3.5,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-10T23:00:00Z",
+     "to": "2026-12-15T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1374812,
+    "name": "Kaffeeservice Firenze 20-tlg.",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  }
+ ]
+}

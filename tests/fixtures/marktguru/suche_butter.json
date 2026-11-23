@@ -1,0 +1,1521 @@
+{
+ "totalResults": 36,
+ "results": [
+  {
+   "brand": {
+    "name": "Kerrygold"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25842707,
+   "description": "HINWEIS: MIT APP 0,10 € REWE BONUS oder Extra versch. Sorten, je 250-g-Pckg.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.59,
+   "oldPrice": null,
+   "referencePrice": 6.36,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 321769,
+    "name": "Original Irische Butter",
+    "description": "~twxbri~ ~twxirl~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Weihenstephan"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25885642,
+   "description": "HINWEIS: MIT KAUFLAND CARD XTRA X1.15 € oder Die Streichzarte mildgesäuert, Die Streichzarte auch gesalzen, gekühlt je 250-g-Packg.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 5.16,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 20742,
+    "name": "Butter",
+    "description": "~twxde~ ~twxsde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rama"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25842592,
+   "description": "je 400-g-Becher",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 3.23,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 568571,
+    "name": "Zum Streichen Backen & Kochen",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rama"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25818207,
+   "description": "je 400 g",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 4.97,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 682154,
+    "name": "mit Butter XXL",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-Classic"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25872352,
+   "description": "mit feinem Butteraroma je 500-g-Packg.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.11,
+   "oldPrice": null,
+   "referencePrice": 2.22,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 1385072,
+    "name": "Back-Streichfett",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bayernkrone"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25774517,
+   "description": "Gekühlt. Je 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 3.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 822133,
+    "name": "Butter",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Kerrygold"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25877957,
+   "description": "Versch. Sorten. Gekühlt. Je 400 g",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 4.97,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1342093,
+    "name": "Extra Butter XXL",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Meggle"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25771527,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER  versch. Sorten je 250 g Rolle",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 3.49,
+   "oldPrice": null,
+   "referencePrice": 13.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 760499,
+    "name": "Butter XXL",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Butaris"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25873167,
+   "description": "Gekühlt. Je 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.99,
+   "oldPrice": null,
+   "referencePrice": 11.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1001177,
+    "name": "Butterschmalz Original",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Kerrygold"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25831542,
+   "description": "oder Streichfett versch. Sorten, 150 - 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 5.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 84479,
+    "name": "Butter",
+    "description": "~twxirl~ ~twxbri~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Kerrygold"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127134",
+     "name": "EDEKA Frischemarkt"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25809277,
+   "description": "oder Streichfett versch. Sorten, 150 - 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 5.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 84479,
+    "name": "Butter",
+    "description": "~twxirl~ ~twxbri~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Kerrygold"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25839867,
+   "description": "oder Streichfett versch. Sorten je 150- bis 250-g-Packung/Becher",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 5.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 321769,
+    "name": "Original Irische Butter",
+    "description": "~twxbri~ ~twxirl~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Sanella"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25878342,
+   "description": "HINWEIS: MIT LIDL PLUS APP  Je 400 g Normalpreis: 2.19",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.19,
+   "oldPrice": null,
+   "referencePrice": 2.97,
+   "requiresLoyalityMembership": true,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 319061,
+    "name": "Margarine",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Meggle"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25775142,
+   "description": "Versch. Sorten. Gekühlt. Je 400 g",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.29,
+   "oldPrice": null,
+   "referencePrice": 5.72,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 143464,
+    "name": "Streichzart",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Frau Antje"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25832652,
+   "description": "gekühlt 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 3.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 59371,
+    "name": "Beste Butter",
+    "description": "~twxnl~ ~twxweu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Arla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25771497,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER   versch. Sorten je 200 g Becher",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 7.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 120007,
+    "name": "Kaergarden",
+    "description": "~twxdk~ ~twxskd~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Phase"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25771487,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER 72 % Fett pflanzlich mit Buttermilch 250 g Packung",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 3.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1220312,
+    "name": "Professional Gold Streichfett",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Gut & Günstig"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25840597,
+   "description": "oder Pflanzenmargarine 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 1.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 158807,
+    "name": "Sonnenblumen-Margarine",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Edeka Herzstücke"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25831157,
+   "description": "250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.0,
+   "oldPrice": null,
+   "referencePrice": 4.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1175881,
+    "name": "Weidebutter",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Arla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25830242,
+   "description": "HINWEIS: MIT EDEKA  APP 0.99, versch. Sorten je 200-g-Becher",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.39,
+   "oldPrice": null,
+   "referencePrice": 6.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 120007,
+    "name": "Kaergarden",
+    "description": "~twxdk~ ~twxskd~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Arla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25827427,
+   "description": "HINWEIS: MIT EDEKA APP 0.99, versch. Sorten je 200-g-Becher",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.39,
+   "oldPrice": null,
+   "referencePrice": 6.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 120007,
+    "name": "Kaergarden",
+    "description": "~twxdk~ ~twxskd~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Arla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127134",
+     "name": "EDEKA Frischemarkt"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25808632,
+   "description": "HINWEIS: MIT EDEKA APP 0.99 € versch. Sorten 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.39,
+   "oldPrice": null,
+   "referencePrice": 6.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 120007,
+    "name": "Kaergarden",
+    "description": "~twxdk~ ~twxskd~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Arla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25831532,
+   "description": "HINWEIS: MIT EDEKA APP 0.99, versch. Sorten 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.39,
+   "oldPrice": null,
+   "referencePrice": 6.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 120007,
+    "name": "Kaergarden",
+    "description": "~twxdk~ ~twxskd~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Harry Brot"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 475,
+     "name": "Brot"
+    }
+   ],
+   "id": 25866602,
+   "description": "Vollkorn oder Balance je 500-g-Packg.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 2.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 1296543,
+    "name": "Sammy's Butter Toast",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Whole Earth"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126811",
+     "name": "ROSSMANN"
+    }
+   ],
+   "categories": [
+    {
+     "id": 625,
+     "name": "Schokoaufstrich"
+    }
+   ],
+   "id": 25851337,
+   "description": "oder Crunchy je 340 g",
+   "volume": 0.34,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 3.49,
+   "oldPrice": null,
+   "referencePrice": 10.26,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-27T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 780587,
+    "name": "Peanut Butter Creamy",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Optima"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 132,
+     "name": "Veganes"
+    },
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25517587,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER 10 kg Eimer",
+   "volume": 10.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 31.99,
+   "oldPrice": null,
+   "referencePrice": 3.2,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-10-31T23:00:00Z",
+     "to": "2026-11-30T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1334208,
+    "name": "Alpenschmelz Vegan",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Lidl Backshop"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 189,
+     "name": "Kuchen & Feinbackwaren"
+    }
+   ],
+   "id": 25882822,
+   "description": "Je 3 Stück.",
+   "volume": 1.0,
+   "quantity": 3.0,
+   "isMultiProduct": false,
+   "price": 0.98,
+   "oldPrice": null,
+   "referencePrice": 0.33,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 555083,
+    "name": "Butter-Croissant",
+    "description": "~twxfrz~"
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Favorina"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 155,
+     "name": "Kekse"
+    }
+   ],
+   "id": 25875137,
+   "description": "Versch. Motive. Je 750 g",
+   "volume": 0.75,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 4.79,
+   "oldPrice": null,
+   "referencePrice": 6.39,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1357292,
+    "name": "Butter- & Schokolade-Mürbegebäck",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bahlsen"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 155,
+     "name": "Kekse"
+    }
+   ],
+   "id": 25828167,
+   "description": "200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.69,
+   "oldPrice": null,
+   "referencePrice": 8.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 840784,
+    "name": "Butter Spekulatius",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Knorr"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 334,
+     "name": "Soßen"
+    }
+   ],
+   "id": 25518207,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER ergibt 18 Liter o.d.Z. 3 kg Packung",
+   "volume": 3.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 79.95,
+   "oldPrice": null,
+   "referencePrice": 26.65,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-10-31T23:00:00Z",
+     "to": "2026-11-30T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 913479,
+    "name": "Professional Zitronen-Butter",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bahlsen"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 155,
+     "name": "Kekse"
+    }
+   ],
+   "id": 25844002,
+   "description": "versch. Sorten, je 200-g-Pckg.",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 6.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 890826,
+    "name": "Leibniz Butterkekse",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25843732,
+   "description": "je 500-g-Fl. zzgl. 0.25 Pfand",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.59,
+   "oldPrice": null,
+   "referencePrice": 1.18,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 595,
+    "name": "Reine Buttermilch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rewe Beste Wahl"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 189,
+     "name": "Kuchen & Feinbackwaren"
+    }
+   ],
+   "id": 25837732,
+   "description": "je 200-g-Pckg.",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 7.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1136156,
+    "name": "Butterstollen",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25819492,
+   "description": "Zzgl. 0.25 Pfand, je 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.59,
+   "oldPrice": null,
+   "referencePrice": 1.18,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 595,
+    "name": "Reine Buttermilch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Optima"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 132,
+     "name": "Veganes"
+    }
+   ],
+   "id": 25770582,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER  Buttergeschmack l = 3,745 2 l Flasche",
+   "volume": 2.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 7.49,
+   "oldPrice": null,
+   "referencePrice": 3.75,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1158331,
+    "name": "Brat Gold Buttergeschmack vegan",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126992",
+     "name": "mömax"
+    }
+   ],
+   "categories": [
+    {
+     "id": 145,
+     "name": "Heimtextilien"
+    }
+   ],
+   "id": 25418442,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 45.0,
+   "oldPrice": null,
+   "referencePrice": 45.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-29T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1354202,
+    "name": "Nackenkissen BUTTERFLY",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  }
+ ]
+}

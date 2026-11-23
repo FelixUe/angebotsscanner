@@ -1,0 +1,4205 @@
+{
+ "totalResults": 266,
+ "results": [
+  {
+   "brand": {
+    "name": "Salzburg Milch"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25886592,
+   "description": "oder Heujuwel Premium Original Bergkäse oder Premium Heujuwel, aus Heumilch, 50 % Fett i. Tr., gekühlt je 250-g-Stück",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.59,
+   "oldPrice": null,
+   "referencePrice": 10.36,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 690701,
+    "name": "Heumilch Bergkäse",
+    "description": "~twxat~ ~twxalp~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25843732,
+   "description": "je 500-g-Fl. zzgl. 0.25 Pfand",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.59,
+   "oldPrice": null,
+   "referencePrice": 1.18,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 595,
+    "name": "Reine Buttermilch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25843117,
+   "description": "versch. Sorten, je 400-ml-Fl. zzgl. 0.25 Pfand",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.79,
+   "oldPrice": null,
+   "referencePrice": 1.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 356545,
+    "name": "Müllermilch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-Classic"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25867087,
+   "description": "wärmebehandelt, 7,5 % Fett je 340-g-Packg.",
+   "volume": 0.34,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.59,
+   "oldPrice": null,
+   "referencePrice": 1.74,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 1285085,
+    "name": "Kondensmilch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Arla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25862637,
+   "description": "1,5 oder 3,8 % Fett, gekühlt je 1-l-Packg.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 1.29,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 551298,
+    "name": "Bio Haltbare Weidemilch",
+    "description": "~twxdk~ ~twxskd~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Landliebe"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25862207,
+   "description": "1,5 % oder 3,5 % Fett je 1-l-Packg. 12 für 9.99",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 0.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 332495,
+    "name": "Haltbare Landmilch",
+    "description": "~twxde~ ~twxsde~ ~twxbw~ ~twxswb~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bärenmarke"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25819742,
+   "description": "3,5% oder 1,5% Fett, je 1 l",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 0.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 766296,
+    "name": "Haltbare Milch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25819492,
+   "description": "Zzgl. 0.25 Pfand, je 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.59,
+   "oldPrice": null,
+   "referencePrice": 1.18,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 595,
+    "name": "Reine Buttermilch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Weihenstephan"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25878272,
+   "description": "W3,5/1,5 % Fett. Je 1 l",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 0.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 72025,
+    "name": "Haltbare Milch",
+    "description": "~twxde~ ~twxsde~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Milbona"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25772737,
+   "description": "1,5 % Fett. Je 12x 1 l",
+   "volume": 1.0,
+   "quantity": 12.0,
+   "isMultiProduct": false,
+   "price": 8.5,
+   "oldPrice": null,
+   "referencePrice": 0.71,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 207088,
+    "name": "Haltbare Fettarme Milch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bärenmarke"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25771782,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER  8 % Fett 170 g Flasche",
+   "volume": 0.17,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.79,
+   "oldPrice": null,
+   "referencePrice": 4.65,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 648918,
+    "name": "Kaffee-Milch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bärenmarke"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25771737,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER versch. Fettstufen je 1 l Packung",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.11,
+   "oldPrice": null,
+   "referencePrice": 1.11,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 661874,
+    "name": "Frische Milch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25774852,
+   "description": "HINWEIS: MIT LIDL PLUS APP 0.59 € oder  Shake Versch. Sorten. Gekühlt. Je 400 ml zzgl. 0.25 Pfand",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.69,
+   "oldPrice": null,
+   "referencePrice": 1.72,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 356545,
+    "name": "Müllermilch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Gutes Land"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25843762,
+   "description": "1,5% Fett 12 x 1 Liter Einzelpreis: 0.85",
+   "volume": 1.0,
+   "quantity": 12.0,
+   "isMultiProduct": false,
+   "price": 8.0,
+   "oldPrice": null,
+   "referencePrice": 0.67,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-27T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 473946,
+    "name": "Fettarme H-Milch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Landliebe"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25844222,
+   "description": "1,5/3,5 % Fett je 1-Liter Packung",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.88,
+   "oldPrice": null,
+   "referencePrice": 0.88,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 332495,
+    "name": "Haltbare Landmilch",
+    "description": "~twxde~ ~twxsde~ ~twxbw~ ~twxswb~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Landliebe"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25839732,
+   "description": "1,5/3,5 % Fett je 1-Liter-Packung",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.88,
+   "oldPrice": null,
+   "referencePrice": 0.88,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 332495,
+    "name": "Haltbare Landmilch",
+    "description": "~twxde~ ~twxsde~ ~twxbw~ ~twxswb~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Landliebe"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25832262,
+   "description": "1,5 % oder 3,5 % Fett 1 l",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.88,
+   "oldPrice": null,
+   "referencePrice": 0.88,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 332495,
+    "name": "Haltbare Landmilch",
+    "description": "~twxde~ ~twxsde~ ~twxbw~ ~twxswb~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Ammerländer"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 162,
+     "name": "Milch"
+    }
+   ],
+   "id": 25862257,
+   "description": "1 l gekühlt, 1,5% oder 3,8% Fett",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.0,
+   "oldPrice": null,
+   "referencePrice": 1.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 723354,
+    "name": "Weidemilch",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126924",
+     "name": "Woolworth"
+    }
+   ],
+   "categories": [
+    {
+     "id": 242,
+     "name": "Deko"
+    }
+   ],
+   "id": 25758727,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.0,
+   "oldPrice": null,
+   "referencePrice": 1.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-12T23:00:00Z",
+     "to": "2026-11-23T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1376757,
+    "name": "Miniatur Milch",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Milka"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 155,
+     "name": "Kekse"
+    }
+   ],
+   "id": 25845192,
+   "description": "Milch, je 5 x 37-g-Pckg oder Choco & Cake je 175-g-Pckg.",
+   "volume": 0.037,
+   "quantity": 5.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 10.76,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 353505,
+    "name": "Tender Milch",
+    "description": "~twxch~ ~twxalp~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Ferrero"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 155,
+     "name": "Kekse"
+    }
+   ],
+   "id": 25877317,
+   "description": "HINWEIS: MIT KAUFLAND CARD XTRA 1.99€  mit Milchcreme, Original oder Berry, gekühlt je 10 St. = 280-g-Packg.",
+   "volume": 0.28,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.39,
+   "oldPrice": null,
+   "referencePrice": 8.54,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-26T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 850797,
+    "name": "Milch-Schnitte Snack",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 181,
+     "name": "Desserts"
+    }
+   ],
+   "id": 25819422,
+   "description": "HINWEIS: MIT PENNY APP Versch. Sorten, je 200 g ohne Penny App 0.99",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.39,
+   "oldPrice": null,
+   "referencePrice": 1.95,
+   "requiresLoyalityMembership": true,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 327457,
+    "name": "Milch Reis",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 181,
+     "name": "Desserts"
+    }
+   ],
+   "id": 25771752,
+   "description": "Gekühlt. Je 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.59,
+   "oldPrice": null,
+   "referencePrice": 2.36,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 327457,
+    "name": "Milch Reis",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mister Choc"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 151,
+     "name": "Schokoladen"
+    }
+   ],
+   "id": 25773017,
+   "description": "HINWEIS: MIT LIDL PLUS APP  Versch. Sorten. Je 210 g",
+   "volume": 0.21,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 9.48,
+   "requiresLoyalityMembership": true,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1184861,
+    "name": "Milch Freunde Schokoladenbonbons",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 181,
+     "name": "Desserts"
+    }
+   ],
+   "id": 25844227,
+   "description": "oder Grießpudding versch. Sorten je 132- bis 200-g-Becher",
+   "volume": 0.132,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.39,
+   "oldPrice": null,
+   "referencePrice": 2.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 327457,
+    "name": "Milch Reis",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 181,
+     "name": "Desserts"
+    }
+   ],
+   "id": 25840452,
+   "description": "oder Grießpudding versch. Sorten, 132 - 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.39,
+   "oldPrice": 0.99,
+   "referencePrice": 1.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 327457,
+    "name": "Milch Reis",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 181,
+     "name": "Desserts"
+    }
+   ],
+   "id": 25839737,
+   "description": "oder Grießpudding versch. Sorten je 132-g bis 200-g-Becher",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.39,
+   "oldPrice": null,
+   "referencePrice": 1.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 327457,
+    "name": "Milch Reis",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127134",
+     "name": "EDEKA Frischemarkt"
+    }
+   ],
+   "categories": [
+    {
+     "id": 181,
+     "name": "Desserts"
+    }
+   ],
+   "id": 25808862,
+   "description": "oder Grießpudding versch. Sorten, 132 - 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.39,
+   "oldPrice": null,
+   "referencePrice": 1.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 327457,
+    "name": "Milch Reis",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bauernmilch"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25862667,
+   "description": "Demeter Rahmstufe Rahmstufe, gekühlt je 125-g-Packg.",
+   "volume": 0.125,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 15.92,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 555357,
+    "name": "Bio-Camembert",
+    "description": "~twxfrz~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Milupa"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 405,
+     "name": "Babynahrung"
+    }
+   ],
+   "id": 25853847,
+   "description": "versch. Sorten, je 400-g-Pckg.",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 3.99,
+   "oldPrice": null,
+   "referencePrice": 9.97,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 122256,
+    "name": "Milchbrei",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Kerrygold"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25852577,
+   "description": "herzhaft irischer Hartkäse, 50% Fett i.Tr., je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 12.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 95756,
+    "name": "Cheddar",
+    "description": "~twxirl~ ~twxbri~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Etorki"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25852552,
+   "description": "oder Saint Agür franz. Schnitt- oder Weichkäse, versch. Sorten, je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 19.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 167285,
+    "name": "Schnittkäse",
+    "description": "~twxfrz~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mexicana"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25851797,
+   "description": "oder Westerdale Cranberry Käsezubereitung aus Großbritannien, versch. Sorten, je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.69,
+   "oldPrice": null,
+   "referencePrice": 26.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 808502,
+    "name": "Cheddar",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rewe Feine Welt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25847222,
+   "description": "Schweizer Hartkäse, 48% Fett i.Tr., je 150-g-Pckg.",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.99,
+   "oldPrice": null,
+   "referencePrice": 19.93,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1382082,
+    "name": "Schweizer Urkraft",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rewe Feine Welt"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25846852,
+   "description": "je 200-g-Pckg.",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.79,
+   "oldPrice": null,
+   "referencePrice": 13.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1382192,
+    "name": "Medaglioni Burrata",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bergader"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25844127,
+   "description": "Hartkäse, 45% Fett i.Tr., je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 14.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 829534,
+    "name": "Watzmann Bergkäse",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Nordsee Käserei"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25844107,
+   "description": "Schnittkäse, 60% Fett i.Tr., je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.39,
+   "oldPrice": null,
+   "referencePrice": 13.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 793800,
+    "name": "Marienburger",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Milram"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25843937,
+   "description": "Schnittkäse, 45% Fett i.Tr., je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.11,
+   "oldPrice": null,
+   "referencePrice": 11.1,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 150457,
+    "name": "Burlander",
+    "description": "~twxde~ ~twxnde~ ~twxni~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Käserei Oberli"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25843932,
+   "description": "Schweizer Schnittkäse, mind. 55% Fett i.Tr., je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.59,
+   "oldPrice": null,
+   "referencePrice": 25.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 810197,
+    "name": "Junge Hexe",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Frico"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25843922,
+   "description": "holl. Schnittkäse, 51% Fett i.Tr., je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.89,
+   "oldPrice": null,
+   "referencePrice": 8.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 316281,
+    "name": "Gouda Jung",
+    "description": "~twxweu~ ~twxnl~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Kerrygold"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25842707,
+   "description": "HINWEIS: MIT APP 0,10 € REWE BONUS oder Extra versch. Sorten, je 250-g-Pckg.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.59,
+   "oldPrice": null,
+   "referencePrice": 6.36,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 321769,
+    "name": "Original Irische Butter",
+    "description": "~twxbri~ ~twxirl~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Zott"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25842617,
+   "description": "je 4 x 100-g-Becher",
+   "volume": 0.1,
+   "quantity": 4.0,
+   "isMultiProduct": false,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 3.72,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 249822,
+    "name": "Monte Maxi Schoko",
+    "description": "~twxde~ ~twxsde~ ~twxby~ ~twxswb~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rama"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25842592,
+   "description": "je 400-g-Becher",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 3.23,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 568571,
+    "name": "Zum Streichen Backen & Kochen",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Ehrmann"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25842562,
+   "description": "versch. Sorten, je 450-g-Becher",
+   "volume": 0.45,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 3.31,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1127402,
+    "name": "High Protein Skyr",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Weihenstephan"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25842482,
+   "description": "versch. Sorten, je 150-g-Becher",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.49,
+   "oldPrice": null,
+   "referencePrice": 3.27,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 838298,
+    "name": "Rahmjoghurt",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Ehrmann"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25842382,
+   "description": "HINWEIS: MIT APP 0,10 € REWE BONUS versch. Sorten, je 150-g-Becher",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.44,
+   "oldPrice": null,
+   "referencePrice": 2.93,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 75739,
+    "name": "Almighurt",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 181,
+     "name": "Desserts"
+    }
+   ],
+   "id": 25838212,
+   "description": "HINWEIS: MIT APP 0,10 € REWE BONUS versch. Sorten, je 200-g-Becher",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.49,
+   "oldPrice": null,
+   "referencePrice": 2.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 356423,
+    "name": "Milchreis Original",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Miree"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25837757,
+   "description": "HINWEIS: MIT APP 0,10 € REWE BONUS je 150-g-Becher oder Exquisa Der Sahnige je 200-g-Pckg.",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.11,
+   "oldPrice": null,
+   "referencePrice": 7.4,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 459517,
+    "name": "Französische Kräuter",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Weihenstephan"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25837752,
+   "description": "mild versch. Sorten, je 500-g-Becher",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.89,
+   "oldPrice": null,
+   "referencePrice": 1.78,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 161333,
+    "name": "Naturjoghurt",
+    "description": "~twxde~ ~twxsde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rewe Beste Wahl"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 165,
+     "name": "Sahne, Schmand und Crème fraîche"
+    }
+   ],
+   "id": 25837602,
+   "description": "mind. 33% Fett, je 200-g-Becher",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.79,
+   "oldPrice": null,
+   "referencePrice": 3.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 46034,
+    "name": "Schlagsahne",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Appenzeller Switzerland"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25837352,
+   "description": "Schweizer Hartkäse, mind. 48% Fett i.Tr., je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.29,
+   "oldPrice": null,
+   "referencePrice": 22.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 162858,
+    "name": "Kräftig-Würzig",
+    "description": "~twxch~ ~twxalp~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Bergader"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25835282,
+   "description": "oder Proteinreiche mild Schnittkäse, je 150-g-Pckg.",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.69,
+   "oldPrice": null,
+   "referencePrice": 11.27,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 830362,
+    "name": "Bergbauern-Käse Mild-nussig",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Arla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25835237,
+   "description": "HINWEIS: MIT APP 0,10 € REWE BONUS versch. Sorten, je 150-g-Pckg.",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 9.93,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 322315,
+    "name": "Finello Reibekäse",
+    "description": "~twxdk~ ~twxskd~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Gervais"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25835227,
+   "description": "HINWEIS: MIT APP 0,10 € REWE BONUS versch. Sorten, je 200-g-Becher",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.19,
+   "oldPrice": null,
+   "referencePrice": 5.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 46960,
+    "name": "Hüttenkäse",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Emmi"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25835212,
+   "description": "Schweizer Schnittkäse, 47% Fett i.Tr., je 200-g-Pckg.",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.49,
+   "oldPrice": null,
+   "referencePrice": 12.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1382732,
+    "name": "Raclette Pure Classic",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Hochland"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25835072,
+   "description": "Schmelzkäse, je 150-g-Pckg. oder Cheese Sauce je 175-g-Becher",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.79,
+   "oldPrice": null,
+   "referencePrice": 11.93,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 398586,
+    "name": "Sandwich Scheiben Gouda",
+    "description": "~twxde~ ~twxsde~ ~twxby~ ~twxall~ ~twxweu~ ~twxnl~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Zott"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25835027,
+   "description": "200-g-Abtropfgew., je 330-g-Btl.",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 9.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1337138,
+    "name": "Zottarella Maxi-Rolle",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Milram"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25834397,
+   "description": "HINWEIS: MIT APP 0,10 € REWE BONUS versch. Sorten, je 185-g-Becher",
+   "volume": 0.185,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 5.35,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 75982,
+    "name": "Gewürzquark",
+    "description": "~twxde~ ~twxnde~ ~twxni~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Zott"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25887582,
+   "description": "verfeinerte Mozzarella-Kugeln, 45 % Fett i. Tr., gekühlt je 250-g-Packg.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.69,
+   "oldPrice": null,
+   "referencePrice": 6.76,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 754176,
+    "name": "Zottarella Minis Basilikum",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Galbani"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25886707,
+   "description": "gerieben oder gewürfelt, ideal für Pasta und Aufläufe bzw. für Pizza, 43 % Fett i. Tr. je 150-g-Packg.",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.79,
+   "oldPrice": null,
+   "referencePrice": 11.93,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 310629,
+    "name": "Mozzarella",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Gazi"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25886507,
+   "description": "halbfester Schnittkäse, versch. Sorten, 45 % Fett i. Tr., gekühlt je 200-g-Packg.  3 x je 200-g-Packg 5.00",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 9.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 190,
+    "name": "Grill- und Pfannenkäse",
+    "description": "~twxtk~ ~twxoeu~ ~twxtk~ ~twxasi~ ~twxor~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Le Rustique"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25886327,
+   "description": "franz. Weichkäse, 45 % Fett i. Tr., gekühlt je 250-g-Packg. 3 x je 250-g-Packg. 6.00",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.79,
+   "oldPrice": null,
+   "referencePrice": 11.16,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 57249,
+    "name": "Camembert",
+    "description": "~twxfrz~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Landliebe"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25885657,
+   "description": "HINWEIS: MIT KAUFLAND CARD XTRA 1.39 € oder QUÄSE Protein-Käsescheiben versch. Sorten, 30 - 48 % Fett i. Tr., gekühlt je 150-g-Packg.",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.59,
+   "oldPrice": null,
+   "referencePrice": 10.6,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 70750,
+    "name": "Landkäse",
+    "description": "~twxde~ ~twxsde~ ~twxbw~ ~twxswb~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Weihenstephan"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25885642,
+   "description": "HINWEIS: MIT KAUFLAND CARD XTRA X1.15 € oder Die Streichzarte mildgesäuert, Die Streichzarte auch gesalzen, gekühlt je 250-g-Packg.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 5.16,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 20742,
+    "name": "Butter",
+    "description": "~twxde~ ~twxsde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Käserei Champignon"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25885462,
+   "description": "MONTAGNOLO, ROUGETTE oder FIORELLA DI TOMINO dtsch. Weichkäse, 68 - 70 % Fett i. Tr. je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.79,
+   "oldPrice": null,
+   "referencePrice": 17.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 126743,
+    "name": "Cambozola",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Comté"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25885432,
+   "description": "AOP Franz. Hartkäse 6 Monate gereift, aromatisch-würzig, 45 % Fett i. Tr. je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 19.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 890455,
+    "name": "Hartkäse",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Viss"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 417,
+     "name": "Reinigen"
+    }
+   ],
+   "id": 25884082,
+   "description": "oder Original je 500-ml-Fl.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 2.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 18566,
+    "name": "Scheuermilch Citrus",
+    "description": null
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Milram"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25880192,
+   "description": "dtsch. Schnittkäse, 55 % Fett i. Tr. je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 9.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 95394,
+    "name": "Müritzer",
+    "description": "~twxde~ ~twxnde~ ~twxni~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Käserei Champignon"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25880147,
+   "description": "Carny Montagnolo, Rougette Landkäse Oder Fiorella Di Tomino dtsch. Weichkäse, 68 - 70 % Fett i. Tr. je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.79,
+   "oldPrice": null,
+   "referencePrice": 17.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 815655,
+    "name": "Cambozola Weichkäse",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Schärdinger"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25880117,
+   "description": "oder Moosbacher österr. Hart- oder Schnittkäse mit Rotkultur- oder Doppel-Reifung, 45 - 50 % Fett i. Tr. je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 12.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 221519,
+    "name": "Bergfex",
+    "description": "~twxat~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Westland"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25880097,
+   "description": "Holl. Hartkäse gereift, würzig, 48 % Fett i. Tr. je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.79,
+   "oldPrice": null,
+   "referencePrice": 17.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 160997,
+    "name": "Old Amsterdam Hartkäse",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25880047,
+   "description": "AOP Franz. Hartkäse 6 Monate gereift, aromatisch-würzig, 45 % Fett i. Tr. je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 19.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 351356,
+    "name": "Comté Hartkäse",
+    "description": "~twxfrz~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Frico"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25880032,
+   "description": "holl. Schnittkäse, 45 % Fett i. Tr. je 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.79,
+   "oldPrice": null,
+   "referencePrice": 7.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 319759,
+    "name": "Maasdam",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Exquisa"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25877377,
+   "description": "MIREE oder  versch. Sorten, Magerstufe - Doppelrahmstufe, gekühlt je 135 - 200-g-Packg.",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 4.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-26T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 148040,
+    "name": "Frischkäsezubereitung",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Holstein-Ei"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 324,
+     "name": "Eier"
+    }
+   ],
+   "id": 25876492,
+   "description": "aus Bodenhaltung, HKL A, Größe M/L je 10-St.-Packg.",
+   "volume": 1.0,
+   "quantity": 10.0,
+   "isMultiProduct": false,
+   "price": 3.09,
+   "oldPrice": null,
+   "referencePrice": 0.31,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 343403,
+    "name": "Eier",
+    "description": "~twxde~~twxnde~ ~twxsh~"
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Dovgan"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25876367,
+   "description": "HINWEIS: MIT KAUFLAND CARD XTRA 1.99€ 20 % Fett i. Tr., gekühlt je 350-g-Packg.",
+   "volume": 0.35,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.29,
+   "oldPrice": null,
+   "referencePrice": 6.54,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 1385207,
+    "name": "Frischkäse-Flocken",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rama"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 165,
+     "name": "Sahne, Schmand und Crème fraîche"
+    }
+   ],
+   "id": 25876257,
+   "description": "haltbar Zubereitung aus pflanzlichen Fetten und Buttermilch, 7 - 24 % Fett je 500-ml-Packg.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 2.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 52798,
+    "name": "Cremefine",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Quarki"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25876142,
+   "description": "nach osteuropäischer Art, Original, 30 % Fett i. Tr., gekühlt je 250-g-Packg.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.59,
+   "oldPrice": null,
+   "referencePrice": 6.36,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 1262189,
+    "name": "Quark Frischkäse",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-Classic"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25873602,
+   "description": "Sauermilchkäse, versch. Sorten, weniger als 1 % Fett, gekühlt je 115-g-Packg.",
+   "volume": 0.115,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 8.61,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1042912,
+    "name": "Herzhafte Minis",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Kerrygold"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25873252,
+   "description": "Herzhaft oder Burger-Cheddar, 45 - 48 % Fett i. Tr., gekühlt je 130-g-Packg.",
+   "volume": 0.13,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.39,
+   "oldPrice": null,
+   "referencePrice": 10.69,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 95756,
+    "name": "Cheddar",
+    "description": "~twxirl~ ~twxbri~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-Classic"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 166,
+     "name": "Butter"
+    }
+   ],
+   "id": 25872352,
+   "description": "mit feinem Butteraroma je 500-g-Packg.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.11,
+   "oldPrice": null,
+   "referencePrice": 2.22,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 1385072,
+    "name": "Back-Streichfett",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Milram"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25871737,
+   "description": "40 % Fett i. Tr., gekühlt je 379-g-Becher",
+   "volume": 0.379,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 5.25,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 137104,
+    "name": "Frühlings Quark",
+    "description": "~twxde~ ~twxnde~ ~twxni~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Danone"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25871712,
+   "description": "Joghurtdrink, 0 - 2 % Fett im Milchanteil, versch. Sorten, gekühlt je 12 x 100-g-Fl.",
+   "volume": 0.1,
+   "quantity": 12.0,
+   "isMultiProduct": true,
+   "price": 2.79,
+   "oldPrice": null,
+   "referencePrice": 2.32,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 311877,
+    "name": "Actimel XXL",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Dr. Oetker"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 179,
+     "name": "Tortendeko"
+    }
+   ],
+   "id": 25870932,
+   "description": "Vollmilch, Weiß oder Zartbitter je 150-g-Packg.",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.49,
+   "oldPrice": null,
+   "referencePrice": 16.6,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 150127,
+    "name": "Kuvertüre Vollmilch",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Weihenstephan"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25867292,
+   "description": "versch. Sorten, 10 % Fett, gekühlt je 150-g-Becher",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.49,
+   "oldPrice": null,
+   "referencePrice": 3.27,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 838298,
+    "name": "Rahmjoghurt",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rügener Badejunge"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25867022,
+   "description": "HINWEIS: MIT KAUFLAND CARD XTRA 1.99 €  Dtsch. Weichkäse versch. Sorten, 32 - 60 % Fett i. Tr., gekühlt je 125 - 150-g-Packg.",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 13.27,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 340733,
+    "name": "Käse",
+    "description": "~twxde~ ~twxode~ ~twxmv~ ~twxos~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-Classic"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25866277,
+   "description": "am Stück, 48 % Fett i. Tr., gekühlt je 450-g-Stück",
+   "volume": 0.45,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.99,
+   "oldPrice": null,
+   "referencePrice": 6.64,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 1006480,
+    "name": "Gouda jung",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Babybel"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25866267,
+   "description": "Original, Light oder Mix, 25 - 45 % Fett i. Tr., gekühlt je 10 St. = 180 - 200-g-Netz",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.89,
+   "oldPrice": null,
+   "referencePrice": 14.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 434602,
+    "name": "Mini Schnittkäse",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-Classic"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25864317,
+   "description": "gerieben, 48 % Fett i. Tr., gekühlt je 500-g-Großpackg.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.99,
+   "oldPrice": null,
+   "referencePrice": 5.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1384432,
+    "name": "Gouda XXL",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25863812,
+   "description": "Fruchtmark  Joghurterzeugnis, versch. Sorten, gekühlt je 10x150-g-Becher Einzelpreis 0.44",
+   "volume": 0.15,
+   "quantity": 10.0,
+   "isMultiProduct": true,
+   "price": 3.0,
+   "oldPrice": null,
+   "referencePrice": 2.0,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 161334,
+    "name": "Froop Fruchtjoghurt",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Müller"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25863342,
+   "description": "HINWEIS: MIT KAUFLAND CARD XTRA 0.69€ oder Kefir Sauermilchgetränk, 1,5 % Fett, oder Getränk mit Joghurt, Wasser und Salz, gekühlt (+ 0.25 Pfand) je 500-g-Fl.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.89,
+   "oldPrice": null,
+   "referencePrice": 1.78,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 523170,
+    "name": "Ayran",
+    "description": "~twxtk~ ~twxoeu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Andechser Natur"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25862747,
+   "description": "Bioland versch. Sorten, 48-50 % Fett i. T gekühlt je 125- 150 g Packg.",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.49,
+   "oldPrice": null,
+   "referencePrice": 16.6,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 41734,
+    "name": "Bio Schnittkäse",
+    "description": "~twxde~ ~twxsde~ ~twxby~ ~twxalp~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-Bio"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25862717,
+   "description": "Bioland nach griech. Art, mild-würzig, 45 % Fett i. Tr., gekühlt je 200-g-Packg.",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.69,
+   "oldPrice": null,
+   "referencePrice": 8.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1247072,
+    "name": "Bio Hirtenkäse",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-Bio"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25862707,
+   "description": "Bioland 45 % Fett i. Tr., gekühlt je 200-g-Beutel",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 4.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 528656,
+    "name": "Bio Mozzarella",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "K-Bio"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25862617,
+   "description": "Bioland Magerstufe Magerstufe, gekühlt je 250-g-Becher",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.79,
+   "oldPrice": null,
+   "referencePrice": 3.16,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1384367,
+    "name": "Bio Speisequark",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Andechser Natur"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25862562,
+   "description": "Demeter versch. Sorten, 3,8 % Fett (+ 0.15 Pfand), gekühlt je 500-g-Glas",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 3.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 831037,
+    "name": "Bio-Joghurt Mild",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Kaufland"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25862517,
+   "description": "IGP milchig-frisch im Geschmack, mind. 50 % Fett i. Tr., gekühlt je 125-g-Becher",
+   "volume": 0.125,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 11.92,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 1217037,
+    "name": "K-Gold Edition Burrata di Andria",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Ehrmann"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 164,
+     "name": "Joghurt"
+    }
+   ],
+   "id": 25862132,
+   "description": "HINWEIS: MIT KAUFLAND CARD XTRA 0.99€ Fruchtjoghurt, 3,8 %, versch. Sorten, oder griech. Art, 9,7 % Fett im Milchanteil, gekühlt (+ 0.15 Pfand) je 470 - 500-g-Glas",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.11,
+   "oldPrice": null,
+   "referencePrice": 2.22,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 75739,
+    "name": "Almighurt",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Best Moments"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25827227,
+   "description": "Versch. Sorten, je 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 3.79,
+   "oldPrice": null,
+   "referencePrice": 18.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 658338,
+    "name": "Käse am Stück",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Best Moments"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 163,
+     "name": "Käse"
+    }
+   ],
+   "id": 25827212,
+   "description": "Versch. Sorten, je 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.79,
+   "oldPrice": null,
+   "referencePrice": 11.16,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 483353,
+    "name": "Irischer Cheddar",
+    "description": "~twxbri~ ~twxirl~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  }
+ ]
+}

@@ -1,0 +1,845 @@
+{
+ "totalResults": 20,
+ "results": [
+  {
+   "brand": {
+    "name": "Mirácoli"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25864467,
+   "description": "je 560,4-g-Pckg. oder Spaghettigericht Klassiker 5 Portionen, je 610,4-g-Pckg.",
+   "volume": 0.56,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.99,
+   "oldPrice": null,
+   "referencePrice": 5.34,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1035191,
+    "name": "Klassiker Maccaroni",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "3 Glocken"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25838252,
+   "description": "versch. Ausformungen, je 500-g-Btl.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 1.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 568620,
+    "name": "Genuss Pur Pasta",
+    "description": "~twxde~ ~twxsde~ ~twxbw~ ~twxbad~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Delverde"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25863587,
+   "description": "Ital. 100 % Hartweizengrieß, auch aus Vollkorn, versch. Ausformungen je 500-g-Beutel",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.66,
+   "oldPrice": null,
+   "referencePrice": 1.32,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 543100,
+    "name": "Teigwaren",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "3 Glocken"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25826197,
+   "description": "Versch. Sorten, zu 100% aus Hartweizen, je 1.000 g",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 1.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 16215,
+    "name": "Genuss Pur Teigwaren",
+    "description": "~twxde~ ~twxsde~ ~twxbw~ ~twxbad~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Best Moments"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25826187,
+   "description": "Bronze-Teigware, zu 100% aus Hartweizen, je 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 2.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 934288,
+    "name": "Fettuccine al Bronzo",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Nudelhof"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25770967,
+   "description": "Je 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.19,
+   "oldPrice": null,
+   "referencePrice": 2.38,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 616548,
+    "name": "Feine Bandnudeln",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "3 Glocken"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25879037,
+   "description": "Versch. Sorten. Je 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.88,
+   "oldPrice": null,
+   "referencePrice": 1.88,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-12-03T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 269177,
+    "name": "Genuss Pur",
+    "description": "~twxde~ ~twxsde~ ~twxbw~ ~twxbad~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Barilla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25775077,
+   "description": "Versch. Sorten. Je 500/400 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 2.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 745371,
+    "name": "Collezione",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mamma Lucia"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25770572,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER  versch. Sorten gefüllt kg = 3,596 je 2,5 kg Beutel",
+   "volume": 2.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 8.99,
+   "oldPrice": null,
+   "referencePrice": 3.6,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 260942,
+    "name": "Tortellini",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Knorr"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25518192,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER 10 x 5 Platten 10 kg Karton",
+   "volume": 10.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 89.0,
+   "oldPrice": null,
+   "referencePrice": 8.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-10-31T23:00:00Z",
+     "to": "2026-11-30T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1215697,
+    "name": "Professional Lasagne Platten",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Barilla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25839987,
+   "description": "Al Bronzo oder Integrale versch. Sorten je 275-g bis 500-g-Packung",
+   "volume": 0.275,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 5.42,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 13392,
+    "name": "Pasta La Collezione",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Barilla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25832092,
+   "description": "Al Bronzo oder Integrale, versch. Sorten, 250 - 500 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 5.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 745371,
+    "name": "Collezione",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Barilla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25830937,
+   "description": "Al Bronzo oder Integrale, versch. Sorten, 250 - 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 2.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 745371,
+    "name": "Collezione",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Gut & Günstig"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25829927,
+   "description": "versch. Sorten 500-g-Packung",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.59,
+   "oldPrice": null,
+   "referencePrice": 1.18,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 98067,
+    "name": "Pasta",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Barilla"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25828272,
+   "description": "Al Bronzo oder Integrale versch. Sorten je 250-g bis 500-g-Packung",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 5.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 13392,
+    "name": "Pasta La Collezione",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mondo Italiano"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 118,
+     "name": "Nudeln"
+    }
+   ],
+   "id": 25854142,
+   "description": "2 x 1 kg versch. Ausformungen Einzelpreis: 1.29",
+   "volume": 1.0,
+   "quantity": 2.0,
+   "isMultiProduct": true,
+   "price": 2.5,
+   "oldPrice": null,
+   "referencePrice": 1.25,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1166416,
+    "name": "Original italienische Teigwaren XXL",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Yum Yum"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 336,
+     "name": "Instantgerichte"
+    }
+   ],
+   "id": 25866647,
+   "description": "versch. Sorten je 60-g-Packg.",
+   "volume": 0.06,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.59,
+   "oldPrice": null,
+   "referencePrice": 9.83,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 31225,
+    "name": "Instant Nudeln",
+    "description": "~twxfo~ ~twxasi~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Yum Yum"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 336,
+     "name": "Instantgerichte"
+    }
+   ],
+   "id": 25851962,
+   "description": "versch. Sorten 10 x 60 g Einzelpreis: 0.69",
+   "volume": 0.06,
+   "quantity": 10.0,
+   "isMultiProduct": true,
+   "price": 3.88,
+   "oldPrice": null,
+   "referencePrice": 6.47,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 31225,
+    "name": "Instant Nudeln",
+    "description": "~twxfo~ ~twxasi~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Yum Yum"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 336,
+     "name": "Instantgerichte"
+    }
+   ],
+   "id": 25770892,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER versch. Sorten je 60 g Packung",
+   "volume": 0.06,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.49,
+   "oldPrice": null,
+   "referencePrice": 8.17,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1273568,
+    "name": "Instantnudeln",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Nongshim"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 336,
+     "name": "Instantgerichte"
+    }
+   ],
+   "id": 25829662,
+   "description": "versch. Sorten 120 g",
+   "volume": 0.12,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.11,
+   "oldPrice": null,
+   "referencePrice": 9.25,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1059846,
+    "name": "Instandnudeln",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  }
+ ]
+}

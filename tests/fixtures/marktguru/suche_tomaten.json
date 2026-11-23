@@ -1,0 +1,1055 @@
+{
+ "totalResults": 25,
+ "results": [
+  {
+   "brand": {
+    "name": "Rewe Bio"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25884547,
+   "description": "Kl. I, je 250-g-Schale",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 5.16,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 210750,
+    "name": "Bio-Cherry Romatomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25866202,
+   "description": "Marokk. Miniromatomaten Kl. I je 250-g-Packg.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 3.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 335733,
+    "name": "Miniromatomaten",
+    "description": "~twxspar~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126654",
+     "name": "Kaufland"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25861632,
+   "description": "Dtsch. Kl. I je 350-g-Packg.",
+   "volume": 0.35,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 5.69,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T18:00:59Z"
+    }
+   ],
+   "product": {
+    "id": 53446,
+    "name": "Cocktail-Rispentomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Marktliebe"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126765",
+     "name": "PENNY"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25813612,
+   "description": "Kl. I, je 500-g-Schale",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 2.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 570331,
+    "name": "Romatomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25879297,
+   "description": "gestreift  Ursprung: Spanien Klasse I Je 400 g",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.99,
+   "oldPrice": null,
+   "referencePrice": 7.48,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1385347,
+    "name": "Tomaten Sweet­ Marmande",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Edeka Herzstücke"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25842292,
+   "description": "aus Marokko, Kl. I 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.49,
+   "oldPrice": 1.99,
+   "referencePrice": 5.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 834180,
+    "name": "Mini Pflaumen Tomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25871622,
+   "description": "Ursprung: Spanien/Belgien Klasse I Je 750 g",
+   "volume": 0.75,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 2.65,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 166853,
+    "name": "Romatomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Edeka Herzstücke"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25838892,
+   "description": "aus Marokko Klasse I 250-g-Packung",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.49,
+   "oldPrice": null,
+   "referencePrice": 5.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 855595,
+    "name": "Mini-Pflaumentomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Gut & Günstig"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25831142,
+   "description": "aus den Niederlanden, Kl. I 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 1.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 91579,
+    "name": "Rispentomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Gut & Günstig"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25827962,
+   "description": "aus den Niederlanden Klasse I 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 1.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 91579,
+    "name": "Rispentomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Gut & Günstig"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127134",
+     "name": "EDEKA Frischemarkt"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25808297,
+   "description": "aus den Niederlanden, Kl. I 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 1.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 91579,
+    "name": "Rispentomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25845607,
+   "description": "Niederlande/ Spanien, Kl. I 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 1.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 36183,
+    "name": "Rispentomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "thisisnobrand123"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126735",
+     "name": "Netto Marken-Discount"
+    }
+   ],
+   "categories": [
+    {
+     "id": 436,
+     "name": "Tomaten"
+    }
+   ],
+   "id": 25835827,
+   "description": "Marokko/Spanien, Kl. I 500 g Schale",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 3.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-25T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 635473,
+    "name": "Minipflaumentomaten",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Rewe Back-Station"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 474,
+     "name": "Brötchen"
+    }
+   ],
+   "id": 25835362,
+   "description": "je St.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.89,
+   "oldPrice": null,
+   "referencePrice": 0.89,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1382742,
+    "name": "Franzbrötchen Tomate",
+    "description": null
+   },
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   }
+  },
+  {
+   "brand": {
+    "name": "Edeka Foodservice"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 341,
+     "name": "Gemüsekonserven"
+    }
+   ],
+   "id": 25770992,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER  fein passiert 1000 g Packung",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.09,
+   "oldPrice": null,
+   "referencePrice": 1.09,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 974882,
+    "name": "Classic Tomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Chef Select"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126679",
+     "name": "Lidl"
+    }
+   ],
+   "categories": [
+    {
+     "id": 354,
+     "name": "Tiefkühlgerichte"
+    }
+   ],
+   "id": 25882912,
+   "description": "Tiefgefroren. Je 400 g",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.99,
+   "oldPrice": null,
+   "referencePrice": 7.48,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-29T23:00:00Z",
+     "to": "2026-12-05T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1364592,
+    "name": "Kartoffelgratin Mozzarella & Tomate",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Squadra"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 344,
+     "name": "Antipasti"
+    }
+   ],
+   "id": 25771727,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER eingelegt in Rapsöl 750 g Schale",
+   "volume": 0.75,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 7.99,
+   "oldPrice": null,
+   "referencePrice": 10.65,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 915599,
+    "name": "Fresca Getrocknete Tomaten",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Papa Joe's Italian Eatery"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 172,
+     "name": "Dips"
+    }
+   ],
+   "id": 25770917,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER  500 ml Flasche",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.69,
+   "oldPrice": null,
+   "referencePrice": 3.38,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 446662,
+    "name": "Tomaten Ketchup",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Edeka Foodservice"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 172,
+     "name": "Dips"
+    }
+   ],
+   "id": 25763597,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER  versch. Sorten 10kg",
+   "volume": 10.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 13.99,
+   "oldPrice": null,
+   "referencePrice": 1.4,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-18T23:00:00Z",
+     "to": "2026-11-25T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1303903,
+    "name": "PREMIUM TOMATEN KETCHUP",
+    "description": null
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Maggi"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 132,
+     "name": "Veganes"
+    }
+   ],
+   "id": 25517757,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER für 131 Liter 12,5 kg Eimer",
+   "volume": 12.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 159.0,
+   "oldPrice": null,
+   "referencePrice": 12.72,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-10-31T23:00:00Z",
+     "to": "2026-11-30T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1181399,
+    "name": "Tomaten Basissauce Vegan",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Maggi"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126802",
+     "name": "REWE"
+    }
+   ],
+   "categories": [
+    {
+     "id": 343,
+     "name": "Dosengerichte"
+    }
+   ],
+   "id": 25847967,
+   "description": "je 800-g-Dose",
+   "volume": 0.8,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 2.49,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 346918,
+    "name": "Ravioli in Tomatensauce",
+    "description": ""
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Alnatura"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126944",
+     "name": "budni"
+    }
+   ],
+   "categories": [
+    {
+     "id": 172,
+     "name": "Dips"
+    }
+   ],
+   "id": 25796452,
+   "description": "versch. Sorten 350 ml",
+   "volume": 0.35,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.59,
+   "oldPrice": 1.99,
+   "referencePrice": 4.54,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 418471,
+    "name": "Bio Tomatensauce",
+    "description": "~twxde~"
+   },
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   }
+  },
+  {
+   "brand": {
+    "name": "Knorr"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/126590",
+     "name": "Handelshof"
+    }
+   ],
+   "categories": [
+    {
+     "id": 334,
+     "name": "Soßen"
+    }
+   ],
+   "id": 25518202,
+   "description": "HINWEIS: NUR FÜR GROSSHÄNDLER ergibt 27 Liter o.d.Z. 3 kg Packung",
+   "volume": 3.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 54.95,
+   "oldPrice": null,
+   "referencePrice": 18.32,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-10-31T23:00:00Z",
+     "to": "2026-11-30T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 1044117,
+    "name": "Vegan Professional Tomatensauce",
+    "description": null
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mutti"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 172,
+     "name": "Dips"
+    }
+   ],
+   "id": 25839272,
+   "description": "3-fach konzentriert 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.19,
+   "oldPrice": null,
+   "referencePrice": 10.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 532542,
+    "name": "Tomatenkonzentrat",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  },
+  {
+   "brand": {
+    "name": "Mutti"
+   },
+   "advertisers": [
+    {
+     "id": "retailers/127093",
+     "name": "EDEKA"
+    }
+   ],
+   "categories": [
+    {
+     "id": 172,
+     "name": "Dips"
+    }
+   ],
+   "id": 25827622,
+   "description": "3-fach konzentriert 200-g-Tube",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.19,
+   "oldPrice": null,
+   "referencePrice": 10.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-11-22T23:00:00Z",
+     "to": "2026-11-28T22:59:59Z"
+    }
+   ],
+   "product": {
+    "id": 532542,
+    "name": "Tomatenkonzentrat",
+    "description": "~twxit~ ~twxseu~"
+   },
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   }
+  }
+ ]
+}
