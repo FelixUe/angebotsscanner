@@ -91,7 +91,7 @@ ausschluesse:
 regeln:
   kaese:
     # Gemeint ist Schnittkäse am Stück oder in Scheiben.
-    nicht: [frischkaese, schmelzkaese, hirtenkaese, kaesekuchen, kaesestange, kaesesahne, kaesesauce, kaesesosse, ofenkaese]
+    nicht: [frischkaese, schmelzkaese, hirtenkaese, kaesekuchen, kaesestange, kaesesahne, kaesesauce, kaesesosse, ofenkaese, huettenkaese, koerniger, reibekaese, gerieben, quark]
   butter:
     nicht: [margarine, rama, streichfett, kaergarden, buttermilch, spekulatius, mit butter, erdnussbutter]
   milch:
@@ -101,6 +101,13 @@ regeln:
   nudeln:
     begriffe: [pasta, spaghetti, penne, fusilli, teigwaren]
     nicht: [instant, instand, suppe]
+  salz:
+    nicht: [weniger salz, salakis]
+  tee:
+    # Teegetränke in Flaschen sind kein Tee zum Aufbrühen.
+    nicht: [volvic, eistee, icetea, ice tea]
+  quark:
+    nicht: [frucht]
   kaffee:
     nicht: [pads, kapseln, loeslich, chilled, latte, tassenportion]
   passata:

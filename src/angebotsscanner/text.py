@@ -26,6 +26,9 @@ _UMLAUTE = str.maketrans(
     }
 )
 _NICHT_ALNUM = re.compile(r"[^a-z0-9]+")
+#: Bestimmungswort vor einem Bindestrich: „Sahne-“ in „Sahne-Joghurt“, auch
+#: verkürzt wie „Tee-“ in „Tee- / Leberwurst“ oder „Salz-“ in „Salz- & Pfeffermühle“
+_VORDERGLIED = re.compile(r"[^\s-]+-(?=[^\s\d-]|\s)")
 #: Ab dieser Ähnlichkeit (0–100) gelten zwei Wörter als gleich (Tippfehler, Plural).
 AEHNLICH = 90
 
@@ -72,9 +75,12 @@ def enthaelt_begriff(produkt: str, begriff: str) -> bool:
     """Kommt der Begriff (ein oder mehrere Wörter) im Produkttext vor?
 
     Mehrwortige Begriffe müssen als zusammenhängende Wortfolge vorkommen,
-    das letzte Wort darf dabei Grundwort eines Kompositums sein.
+    das letzte Wort darf dabei Grundwort eines Kompositums sein. Bei
+    Bindestrich-Komposita zählt nur das Grundwort: „Sahne-Joghurt“ ist
+    Joghurt, „Speise-Quark“ ist Quark, „H-Milch“ ist Milch, „Tee- /
+    Leberwurst“ ist Wurst.
     """
-    p = woerter(produkt)
+    p = woerter(_VORDERGLIED.sub("", produkt))
     b = woerter(begriff)
     if not p or not b:
         return False

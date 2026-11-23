@@ -35,3 +35,16 @@ def test_teilstring_fuer_ausschluesse() -> None:
 
 def test_skandinavische_zeichen() -> None:
     assert text.normalisiere("Kærgården") == "kaergarden"
+
+
+def test_bindestrich_kompositum_zaehlt_nur_das_grundwort():
+    assert not text.enthaelt_begriff("Zott Sahne-Joghurt", "Sahne")
+    assert text.enthaelt_begriff("Zott Sahne-Joghurt", "Joghurt")
+    assert text.enthaelt_begriff("Gut & Günstig Speise-Quark", "Quark")
+    assert text.enthaelt_begriff("Weihenstephan H-Milch 3,5 %", "Milch")
+
+
+def test_verkuerztes_kompositum_zaehlt_nicht():
+    assert not text.enthaelt_begriff("Bio Tee- / Leberwurst XXL", "Tee")
+    assert not text.enthaelt_begriff("Crofton Salz- & Pfeffermühle", "Salz")
+    assert text.enthaelt_begriff("Bio Tee- / Leberwurst XXL", "Leberwurst")
