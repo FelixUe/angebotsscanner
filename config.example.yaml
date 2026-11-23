@@ -1,0 +1,88 @@
+# Angebotsscanner – Beispielkonfiguration
+#
+# Kopieren nach config.yaml (gitignored) und anpassen. Hier stehen nur
+# fachliche Werte, keine Zugangsdaten – die kommen aus der .env.
+
+standort:
+  # Postleitzahl für regionale Prospekte (EDEKA, Penny …).
+  plz: "10115"
+
+einkauf:
+  # An diesem Tag wird eingekauft. Ein Angebot zählt nur, wenn es an
+  # diesem Tag gilt.
+  wochentag: freitag
+  # Für Vorratszutaten wird so weit vorausgeschaut (Frischware nur Woche 0).
+  vorlauf_wochen: 2
+
+# Welche Märkte zählen. `namen` sind die Bezeichnungen, unter denen die
+# Quelle den Markt führt.
+maerkte:
+  - name: EDEKA
+    quelle: marktguru
+    namen: [EDEKA, EDEKA Frischemarkt]
+  - name: Penny
+    quelle: marktguru
+    namen: [PENNY]
+
+quellen:
+  marktguru:
+    # Inoffizielle Schnittstelle der Webseite marktguru.de: Die Schlüssel
+    # liest der Adapter wie der Browser von der Startseite. Nur für den
+    # privaten Gebrauch, auf eigenes Risiko – deshalb standardmäßig aus.
+    aktiv: false
+    # Sekunden zwischen zwei Anfragen.
+    abstand_s: 2
+    max_begriffe: 80
+
+http:
+  user_agent: "angebotsscanner/0.1 (privater Gebrauch; +https://github.com/FelixUe/angebotsscanner)"
+  timeout_s: 20
+  # So lange werden Antworten zwischengespeichert.
+  cache_stunden: 6
+
+# Kundenkarten/Apps, deren Preise gelten sollen (z. B. edeka, penny).
+# Angebote, die eine App verlangen, die hier fehlt, fallen weg.
+apps: []
+
+bewertung:
+  # Ab dieser Ersparnis lohnt sich ein Vorrats- oder Notvorratskauf.
+  min_ersparnis_prozent: 20
+  # So viele frühere Beobachtungen braucht die Preishistorie, bevor sie
+  # den Ausschlag gibt.
+  min_datenpunkte: 3
+  relevanz:
+    geplant: 1.0
+    geplant_folgewoche: 0.9
+    vorrat_knapp: 0.8
+    vorrat: 0.6
+    notvorrat: 0.4
+
+# Nie vorschlagen. Geprüft gegen Marke, Produkt und Beschreibung.
+ausschluesse:
+  - blauschimmel
+  - gorgonzola
+  - roquefort
+  - stilton
+  - bavaria blu
+  - danablu
+  - salbei
+  - fenchel
+
+# Regeln je Artikel (Schlüssel = Kurzname des Artikels).
+#   suche:    Suchbegriff bei der Quelle, sonst der Artikelname
+#   begriffe: zusätzliche Synonyme
+#   nicht:    Treffer mit diesen Wörtern in Marke/Produkt sind kein Treffer
+regeln:
+  butter:
+    nicht: [margarine, rama, streichfett, kaergarden, buttermilch, spekulatius, mit butter, erdnussbutter]
+  milch:
+    nicht: [buttermilch, reis, kaffee, schokolade, kondensmilch, latte]
+  reis:
+    nicht: [milch, waffel]
+  nudeln:
+    begriffe: [pasta, spaghetti, penne, fusilli, teigwaren]
+    nicht: [instant, instand, suppe]
+  kaffee:
+    nicht: [pads, kapseln, loeslich, chilled, latte, tassenportion]
+  passata:
+    begriffe: [passierte tomaten]

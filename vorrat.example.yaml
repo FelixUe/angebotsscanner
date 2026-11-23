@@ -1,0 +1,70 @@
+# Regelmäßige Vorräte und Notvorrat – Startpunkt, bis der Essensplaner
+# ein eigenes Vorratsmodul hat. Kopieren nach vorrat.yaml (gitignored).
+#
+#   mindestbestand / zielmenge: in `einheit` (meist Packungen)
+#   bestand:             optional; fehlt er, zählt der Artikel als „regelmäßig“
+#   haltbar:             true = lange haltbar, darf auf Vorrat gekauft werden
+#   notvorrat:           true = gehört zum Notvorrat (niedrigere Priorität)
+#   referenz_grundpreis: optional, €/kg bzw. €/l – Vergleichswert, solange
+#                        die eigene Preishistorie noch zu dünn ist
+
+artikel:
+  - name: Nudeln
+    aliases: [Pasta, Spaghetti, Penne, Fusilli]
+    mindestbestand: 2
+    zielmenge: 4
+    einheit: Packung
+    haltbar: true
+    referenz_grundpreis: 2.00
+
+  - name: Reis
+    aliases: [Basmatireis, Langkornreis, Risottoreis]
+    mindestbestand: 1
+    zielmenge: 2
+    einheit: Packung
+    haltbar: true
+    referenz_grundpreis: 2.50
+
+  - name: Passata
+    aliases: [Passierte Tomaten]
+    mindestbestand: 2
+    zielmenge: 6
+    einheit: Packung
+    haltbar: true
+    referenz_grundpreis: 1.80
+
+  - name: Käse
+    aliases: [Gouda, Emmentaler, Bergkäse]
+    mindestbestand: 1
+    zielmenge: 2
+    einheit: Packung
+    haltbar: true
+
+  - name: Kaffee
+    aliases: [Kaffeebohnen, Bohnenkaffee]
+    mindestbestand: 1
+    zielmenge: 2
+    einheit: Packung
+    haltbar: true
+    referenz_grundpreis: 12.00
+
+  # ------------------------------------------------------------ Notvorrat
+  - name: H-Milch
+    aliases: [Haltbare Milch]
+    zielmenge: 6
+    einheit: Packung
+    haltbar: true
+    notvorrat: true
+
+  - name: Haferflocken
+    zielmenge: 2
+    einheit: Packung
+    haltbar: true
+    notvorrat: true
+
+  - name: Kidneybohnen
+    aliases: [Rote Bohnen]
+    zielmenge: 4
+    einheit: Dose
+    haltbar: true
+    notvorrat: true

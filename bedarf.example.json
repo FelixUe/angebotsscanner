@@ -1,0 +1,14 @@
+[
+  {"slug": "butter", "name": "Butter", "art": "geplant", "frisch": true,
+   "gericht": "Grundeinkauf", "woche": 0, "menge": 250, "einheit": "g"},
+  {"slug": "tomate", "name": "Tomaten", "aliases": ["Rispentomaten", "Strauchtomaten"],
+   "art": "geplant", "frisch": true, "gericht": "Shakshuka (Sa)", "woche": 0,
+   "menge": 800, "einheit": "g"},
+  {"slug": "spaghetti", "name": "Nudeln", "aliases": ["Spaghetti", "Pasta"],
+   "art": "geplant", "frisch": false, "gericht": "Spaghetti Bolognese vegetarisch (Mo)",
+   "woche": 0, "menge": 500, "einheit": "g"},
+  {"slug": "milch", "name": "Milch", "art": "geplant", "frisch": true,
+   "gericht": "Grundeinkauf", "woche": 0, "menge": 2, "einheit": "l"},
+  {"slug": "tomate", "name": "Tomaten", "art": "geplant", "frisch": true,
+   "gericht": "Tomatensuppe (Fr)", "woche": 1, "menge": 1000, "einheit": "g"}
+]
