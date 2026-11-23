@@ -79,6 +79,8 @@ class Vorschlag(BaseModel):
     angebot_id: str
     artikel: str
     slug: str
+    #: Alle Bedarfe, die dieses Angebot deckt (``slug`` ist der wichtigste).
+    slugs: list[str] = Field(default_factory=list)
     menge: int
     markt: str
     preis: float

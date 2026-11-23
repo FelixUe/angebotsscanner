@@ -63,9 +63,12 @@ def zusammenfassen(bedarfe: Sequence[Bedarf], vorlauf_wochen: int) -> list[Bedar
         if alt is None:
             gesammelt[b.slug] = b.model_copy()
             continue
-        menge = alt.menge
+        menge, einheit = alt.menge, alt.einheit
         if alt.menge is not None and b.menge is not None and alt.einheit == b.einheit:
             menge = alt.menge + b.menge
+        elif alt.menge is None:
+            # „Nudeln“ aus dem Grundeinkauf hat keine Menge, der Vorrat schon
+            menge, einheit = b.menge, b.einheit
         gerichte = [g for g in (alt.gericht, b.gericht) if g]
         gesammelt[b.slug] = alt.model_copy(
             update={
@@ -74,6 +77,8 @@ def zusammenfassen(bedarfe: Sequence[Bedarf], vorlauf_wochen: int) -> list[Bedar
                 "frisch": alt.frisch or b.frisch,
                 "woche": min(alt.woche, b.woche),
                 "menge": menge,
+                "einheit": einheit,
+                "referenz_grundpreis": alt.referenz_grundpreis or b.referenz_grundpreis,
                 "gericht": " + ".join(dict.fromkeys(gerichte)) or None,
                 "knapp": alt.knapp or b.knapp,
             }
@@ -115,6 +120,7 @@ def _als_vorschlag(gruppe: list[Bewertet]) -> Vorschlag:
         angebot_id=a.id,
         artikel=a.anzeigename,
         slug=top.treffer.bedarf.slug,
+        slugs=list(dict.fromkeys(x.treffer.bedarf.slug for x in gruppe)),
         menge=min(sum(x.menge for x in gruppe), 10),
         markt=a.markt,
         preis=a.preis,

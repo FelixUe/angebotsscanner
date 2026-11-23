@@ -35,6 +35,22 @@ def test_zusammenfassen_wirft_spaetere_frischware_raus() -> None:
     assert tomate.gericht == "Shakshuka (Sa)"
 
 
+def test_zusammenfassen_uebernimmt_menge_und_referenz_vom_vorrat() -> None:
+    grund = Bedarf(slug="nudeln", name="Nudeln", gericht="Grundeinkauf")
+    vorrat = Bedarf(
+        slug="nudeln",
+        name="Nudeln",
+        art=Art.VORRAT,
+        gericht="Vorrat",
+        menge=2,
+        einheit="Packung",
+        referenz_grundpreis=2.0,
+    )
+    (b,) = zusammenfassen([grund, vorrat], vorlauf_wochen=2)
+    assert (b.art, b.menge, b.einheit, b.referenz_grundpreis) == (Art.GEPLANT, 2, "Packung", 2.0)
+    assert b.gericht == "Grundeinkauf + Vorrat"
+
+
 def test_scan_gegen_fixtures(config: Config, marktguru: Marktguru, historie: Historie) -> None:
     e = scanne(beispiel_bedarf(), [marktguru], config, historie, HEUTE)
     assert e.einkaufstag == date(2026, 11, 27)

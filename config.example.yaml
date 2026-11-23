@@ -43,6 +43,13 @@ quellen:
     ohne_gruppen: [Spielzeug, Kindermode, Damenmode, Herrenmode, Elektronik, Badezimmer,
                    Weihnachtsdeko, Pflanzen, Küche, Tierbedarf & Haushalt]
 
+mealie:
+  # Liste, die der Essensplaner mit `essensplaner mealie-einkauf` füllt.
+  # Zugang über MEALIE_URL und MEALIE_TOKEN in der .env.
+  liste: Wocheneinkauf
+  # Label für Zeilen, die nur der Scanner anlegt (Vorrat, Notvorrat).
+  label: Angebote
+
 http:
   user_agent: "angebotsscanner/0.1 (privater Gebrauch; +https://github.com/FelixUe/angebotsscanner)"
   timeout_s: 20

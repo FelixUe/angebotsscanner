@@ -71,6 +71,14 @@ class Regel(BaseModel):
     nicht: list[str] = Field(default_factory=list)
 
 
+class Mealie(BaseModel):
+    """Ziel-Einkaufsliste. URL und Token kommen aus MEALIE_URL/MEALIE_TOKEN."""
+
+    liste: str = "Wocheneinkauf"
+    #: Label für eigene Zeilen (Vorrat, Notvorrat); leer = ohne Label.
+    label: str | None = "Angebote"
+
+
 class Config(BaseModel):
     standort: Standort
     einkauf: Einkauf = Field(default_factory=Einkauf)
@@ -81,6 +89,7 @@ class Config(BaseModel):
     bewertung: Bewertung = Field(default_factory=Bewertung)
     ausschluesse: list[str] = Field(default_factory=list)
     regeln: dict[str, Regel] = Field(default_factory=dict)
+    mealie: Mealie = Field(default_factory=Mealie)
     #: Hier liegen Preishistorie und Cache.
     datenverzeichnis: Path = Path("daten")
 
