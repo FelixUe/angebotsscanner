@@ -1,0 +1,71 @@
+# Angebotsscanner
+
+Holt jede Woche die Prospektangebote deiner Supermärkte und gleicht sie mit drei
+Listen ab:
+
+1. Zutaten der geplanten Gerichte (z. B. aus dem [Essensplaner](https://github.com/FelixUe/essensplaner))
+2. regelmäßige Vorräte (Nudeln, Reis, Passata, Kaffee …)
+3. Notvorrat
+
+Heraus kommt eine Vorschlagsliste: Was lohnt sich diesen Einkauf, wo, zu welchem
+Preis, wie viel gespart, bis wann gültig. Ob etwas wirklich günstig ist, misst der
+Scanner an seiner eigenen Preishistorie, nicht an der Rabattangabe im Prospekt.
+
+> **Status:** MVP. Quelle ist Marktguru (EDEKA, Penny, REWE, Kaufland …). Aldi
+> Nord und die Anbindung an Mealie folgen.
+
+## Quellen
+
+| Quelle | Märkte | Art |
+|---|---|---|
+| Marktguru | EDEKA, Penny, Netto, REWE, Kaufland, Lidl … (regional über die PLZ) | **inoffiziell**, standardmäßig aus |
+
+Marktguru hat keine öffentliche API. Der Adapter fragt die Schnittstelle ab, die
+auch die Webseite nutzt, mit ehrlichem User-Agent, 2 s Abstand und 6 h Cache.
+Das ist nur für den privaten Gebrauch gedacht und geschieht auf eigenes Risiko.
+Sperrt eine Quelle den Zugriff, wird das gemeldet und nicht umgangen.
+
+## Setup
+
+1. Python 3.12 und [uv](https://docs.astral.sh/uv/) installieren.
+2. `git clone https://github.com/FelixUe/angebotsscanner && cd angebotsscanner`
+3. `uv venv --python 3.12 && uv pip install -e .`
+4. `cp config.example.yaml config.yaml`, dann PLZ und Märkte eintragen.
+   Unter `quellen.marktguru.aktiv: true` schaltest du die Quelle bewusst ein.
+5. `cp vorrat.example.yaml vorrat.yaml` und an deine Vorräte anpassen.
+   `referenz_grundpreis` hilft, solange die Historie noch leer ist.
+6. Bedarf als JSON bereitstellen, Format siehe `bedarf.example.json`. Fürs Erste
+   reicht die Beispieldatei.
+7. Probelauf:
+   `.venv/bin/angebotsscanner --config config.yaml scan --bedarf bedarf.example.json --vorrat vorrat.yaml`
+8. Rohdaten einer Quelle ansehen: `.venv/bin/angebotsscanner --config config.yaml angebote butter`
+9. Preishistorie und Cache landen in `daten/`. Je öfter der Scanner läuft, desto
+   besser wird die Bewertung.
+
+## Ausgabe
+
+```json
+{
+  "einkaufstag": "2026-11-27",
+  "vorschlaege": [
+    { "angebot_id": "marktguru:25…", "artikel": "Gut & Günstig Pasta 500 g",
+      "slug": "spaghetti", "menge": 3, "markt": "EDEKA", "preis": 0.59,
+      "grundpreis": 1.18, "grundpreis_einheit": "kg", "ersparnis_prozent": 41.0,
+      "ersparnis_basis": "referenz", "gueltig_von": "2026-11-23",
+      "gueltig_bis": "2026-11-28", "grund": "Spaghetti Bolognese (Mo) + Vorrat",
+      "art": "geplant", "quelle": "angebotsscanner", "score": 1.0 }
+  ],
+  "unklar": [],
+  "fehler": {}
+}
+```
+
+## Entwicklung
+
+```bash
+uv pip install -e ".[dev]"
+.venv/bin/pytest -q          # keine Live-Calls, nur Fixtures
+.venv/bin/ruff check . && .venv/bin/ruff format --check .
+```
+
+Architektur und Konventionen: [CLAUDE.md](CLAUDE.md).
