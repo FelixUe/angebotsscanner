@@ -3,6 +3,8 @@
     angebotsscanner scan --bedarf bedarf.json      # Vorschläge als JSON
     angebotsscanner mealie [--dry-run]             # Bedarf aus Mealie, Angebote hinein
     angebotsscanner angebote butter kaffee         # normalisierte Angebote ansehen
+    angebotsscanner dienst                         # Dauerbetrieb nach betrieb.laeufe
+    angebotsscanner gesund                         # Healthcheck für Docker
 
 Logs gehen nach stderr, das Ergebnis nach stdout.
 """
@@ -19,7 +21,7 @@ from pathlib import Path
 
 from pydantic import TypeAdapter
 
-from . import __version__
+from . import __version__, dienst
 from .config import Config, lade_config, lade_vorrat
 from .historie import Historie
 from .http import Abrufer
@@ -84,8 +86,14 @@ def cmd_scan(args: argparse.Namespace) -> int:
 
 
 def cmd_mealie(args: argparse.Namespace) -> int:
+    return mealie_lauf(args.config, args.vorrat, args.heute, args.dry_run)
+
+
+def mealie_lauf(
+    config_pfad: Path | None, vorrat: Path | None, heute: date, dry_run: bool = False
+) -> int:
     """Bedarf aus der Mealie-Liste lesen, Angebote suchen und hineinschreiben."""
-    config = lade_config(args.config)
+    config = lade_config(config_pfad)
     url = os.environ.get("MEALIE_URL", "").strip()
     token = os.environ.get("MEALIE_TOKEN", "").strip()
     if not url or not token:
@@ -96,20 +104,18 @@ def cmd_mealie(args: argparse.Namespace) -> int:
     historie = Historie(config.datenverzeichnis / "preise.sqlite")
     try:
         items = liste.items()
-        tag = naechster_einkaufstag(args.heute, config.einkauf.wochentag_index)
+        tag = naechster_einkaufstag(heute, config.einkauf.wochentag_index)
         zeilen = bedarf_aus_liste(items, tag)
         if not zeilen:
             log.warning("Mealie: keine offenen Zeilen des Essensplaners für den %s", tag)
-        bedarf = [z.bedarf for z in zeilen] + vorrat_als_bedarf(lade_vorrat(args.vorrat))
+        bedarf = [z.bedarf for z in zeilen] + vorrat_als_bedarf(lade_vorrat(vorrat))
         quellen = baue_quellen(config, abrufer)
-        ergebnis = scanne(bedarf, quellen, config, historie, args.heute)
+        ergebnis = scanne(bedarf, quellen, config, historie, heute)
         if quellen and len(ergebnis.fehler) == len(quellen):
             log.error("Alle Quellen ausgefallen – die Liste bleibt, wie sie ist")
             return 1
         ausgefallen = {m.name for q in ergebnis.fehler for m in config.maerkte_fuer(q)}
-        bericht = liste.schreibe(
-            ergebnis, zeilen, items, args.heute, ausgefallen, dry_run=args.dry_run
-        )
+        bericht = liste.schreibe(ergebnis, zeilen, items, heute, ausgefallen, dry_run=dry_run)
     except MealieFehler as exc:
         log.error("%s", exc)
         return 1
@@ -118,7 +124,7 @@ def cmd_mealie(args: argparse.Namespace) -> int:
         historie.schliessen()
         liste.schliessen()
 
-    vorsilbe = "Würde " if args.dry_run else ""
+    vorsilbe = "Würde " if dry_run else ""
     print(f"Einkauf {tag}: {len(zeilen)} Zeilen gelesen, {len(ergebnis.vorschlaege)} Angebote")
     for titel, eintraege in (
         ("markieren", bericht.markiert),
@@ -134,6 +140,22 @@ def cmd_mealie(args: argparse.Namespace) -> int:
     for quelle, fehler in ergebnis.fehler.items():
         print(f"Quelle {quelle} ausgefallen: {fehler}")
     return 0
+
+
+def cmd_dienst(args: argparse.Namespace) -> int:
+    config = lade_config(args.config)
+    return dienst.dienst(
+        config.betrieb,
+        config.datenverzeichnis / "dienst.json",
+        lambda: mealie_lauf(args.config, args.vorrat, date.today()),
+    )
+
+
+def cmd_gesund(args: argparse.Namespace) -> int:
+    config = lade_config(args.config)
+    ok, text = dienst.gesund(config.betrieb, config.datenverzeichnis / "dienst.json")
+    print(text)
+    return 0 if ok else 1
 
 
 def cmd_angebote(args: argparse.Namespace) -> int:
@@ -169,6 +191,13 @@ def main(argv: list[str] | None = None) -> int:
     mea.add_argument("--heute", type=date.fromisoformat, default=date.today())
     mea.add_argument("--dry-run", action="store_true", help="Nur anzeigen, nichts schreiben")
     mea.set_defaults(fn=cmd_mealie)
+
+    die = sub.add_parser("dienst", help="Dauerbetrieb: mealie-Lauf nach betrieb.laeufe")
+    die.add_argument("--vorrat", type=Path, help="Pfad zur vorrat.yaml")
+    die.set_defaults(fn=cmd_dienst)
+
+    ges = sub.add_parser("gesund", help="Healthcheck: lebt der Dienst, lief er zuletzt?")
+    ges.set_defaults(fn=cmd_gesund)
 
     ang = sub.add_parser("angebote", help="Normalisierte Angebote zu Suchbegriffen")
     ang.add_argument("begriffe", nargs="+")

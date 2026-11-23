@@ -1,0 +1,35 @@
+# Angebotsscanner im Dauerbetrieb.
+#
+#     cp .env.example .env   # PLZ, Mealie-URL und -Token eintragen, chmod 600
+#     docker compose up -d --build
+#
+# Der Container braucht keinen offenen Port. Er muss nur Mealie erreichen:
+# auf dem Home-Server über das gemeinsame Docker-Netz `proxy`.
+
+services:
+  angebotsscanner:
+    build: .
+    image: ${ANGEBOTSSCANNER_IMAGE:-angebotsscanner:lokal}
+    restart: unless-stopped
+    environment:
+      TZ: ${TZ:-Europe/Berlin}
+      ANGEBOTSSCANNER_PLZ: ${ANGEBOTSSCANNER_PLZ:?PLZ in der .env setzen}
+      MEALIE_URL: ${MEALIE_URL:-http://mealie:9000}
+      MEALIE_TOKEN: ${MEALIE_TOKEN:?Mealie-Token in der .env setzen}
+    volumes:
+      # Preishistorie, Cache, Zustand des Zeitplans – und optional vorrat.yaml
+      - angebotsscanner-daten:/daten
+    networks:
+      - proxy
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  angebotsscanner-daten:
+
+networks:
+  proxy:
+    external: true

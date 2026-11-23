@@ -50,6 +50,14 @@ mealie:
   # Label für Zeilen, die nur der Scanner anlegt (Vorrat, Notvorrat).
   label: Angebote
 
+betrieb:
+  # `angebotsscanner dienst` läuft zu diesen Zeiten. Sonntag 19:00 liegt
+  # nach dem Essensplaner (18:00) und nach Aldis Umstellung auf die neue
+  # Woche; Mittwoch 19:00 sieht die Donnerstags-Aktionen.
+  laeufe: ["sonntag 19:00", "mittwoch 19:00"]
+  zeitzone: Europe/Berlin
+  nachholen_stunden: 12
+
 http:
   user_agent: "angebotsscanner/0.1 (privater Gebrauch; +https://github.com/FelixUe/angebotsscanner)"
   timeout_s: 20

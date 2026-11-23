@@ -79,6 +79,19 @@ class Mealie(BaseModel):
     label: str | None = "Angebote"
 
 
+class Betrieb(BaseModel):
+    """Zeitplan für ``angebotsscanner dienst``."""
+
+    #: „Wochentag HH:MM“, Wochentag ausgeschrieben oder zweibuchstabig.
+    laeufe: list[str] = Field(default_factory=lambda: ["sonntag 19:00", "mittwoch 19:00"])
+    zeitzone: str = "Europe/Berlin"
+    #: Verpasste Läufe (Container aus, NUC neu gestartet) so lange nachholen.
+    nachholen_stunden: float = 12
+    #: Nach einem Fehler so oft und in diesem Abstand erneut versuchen.
+    versuche: int = 3
+    wiederholen_minuten: float = 30
+
+
 class Config(BaseModel):
     standort: Standort
     einkauf: Einkauf = Field(default_factory=Einkauf)
@@ -90,6 +103,7 @@ class Config(BaseModel):
     ausschluesse: list[str] = Field(default_factory=list)
     regeln: dict[str, Regel] = Field(default_factory=dict)
     mealie: Mealie = Field(default_factory=Mealie)
+    betrieb: Betrieb = Field(default_factory=Betrieb)
     #: Hier liegen Preishistorie und Cache.
     datenverzeichnis: Path = Path("daten")
 
@@ -136,6 +150,11 @@ def _yaml(pfad: Path) -> dict:
 def lade_config(pfad: Path | str | None = None) -> Config:
     pfad = Path(pfad or os.environ.get("ANGEBOTSSCANNER_CONFIG", "config.yaml"))
     config = Config.model_validate(_yaml(pfad))
+    # Im Container: Beispielkonfiguration aus dem Image, PLZ und Datenort aus der Umgebung
+    if plz := os.environ.get("ANGEBOTSSCANNER_PLZ", "").strip():
+        config.standort.plz = plz
+    if daten := os.environ.get("ANGEBOTSSCANNER_DATEN", "").strip():
+        config.datenverzeichnis = Path(daten)
     if not config.datenverzeichnis.is_absolute():
         config.datenverzeichnis = pfad.parent / config.datenverzeichnis
     return config

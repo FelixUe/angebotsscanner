@@ -1,0 +1,11 @@
+.venv
+.git
+.env
+daten
+config.yaml
+vorrat.yaml
+bedarf.json
+tests
+**/__pycache__
+.pytest_cache
+.ruff_cache
