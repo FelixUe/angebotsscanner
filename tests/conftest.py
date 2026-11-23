@@ -26,15 +26,21 @@ HEUTE = date(2026, 11, 23)
 
 
 class FakeMarktguru:
-    """Ein MockTransport, der mitzählt, was abgefragt wurde."""
+    """Ein MockTransport für Marktguru und Aldi Nord, der mitzählt, was abgefragt wurde."""
 
     def __init__(self, schluessel_ok: bool = True, kaputt: bool = False) -> None:
         self.anfragen: list[httpx.Request] = []
         self.schluessel_ok = schluessel_ok
         self.kaputt = kaputt
+        self.aldi_kaputt = False
 
     def __call__(self, request: httpx.Request) -> httpx.Response:
         self.anfragen.append(request)
+        if request.url.host == "www.aldi-nord.de":
+            if self.aldi_kaputt:
+                return httpx.Response(403, text="gesperrt")
+            html = (FIXTURES / "aldi_nord" / "angebote.html").read_text(encoding="utf-8")
+            return httpx.Response(200, text=html)
         if request.url.host == "www.marktguru.de":
             html = (FIXTURES / "marktguru" / "startseite.html").read_text(encoding="utf-8")
             return httpx.Response(200, text=html)

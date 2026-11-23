@@ -11,7 +11,20 @@ import re
 
 from rapidfuzz import fuzz
 
-_UMLAUTE = str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss", "é": "e", "è": "e"})
+#: „Kærgården“ heißt im deutschen Handel „Kaergarden“, daher å → a
+_UMLAUTE = str.maketrans(
+    {
+        "ä": "ae",
+        "ö": "oe",
+        "ü": "ue",
+        "ß": "ss",
+        "é": "e",
+        "è": "e",
+        "æ": "ae",
+        "ø": "oe",
+        "å": "a",
+    }
+)
 _NICHT_ALNUM = re.compile(r"[^a-z0-9]+")
 #: Ab dieser Ähnlichkeit (0–100) gelten zwei Wörter als gleich (Tippfehler, Plural).
 AEHNLICH = 90

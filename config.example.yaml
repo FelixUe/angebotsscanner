@@ -23,6 +23,8 @@ maerkte:
   - name: Penny
     quelle: marktguru
     namen: [PENNY]
+  - name: Aldi Nord
+    quelle: aldi_nord
 
 quellen:
   marktguru:
@@ -33,6 +35,13 @@ quellen:
     # Sekunden zwischen zwei Anfragen.
     abstand_s: 2
     max_begriffe: 80
+  aldi_nord:
+    # Eigene Angebotsseite (aldi-nord.de/angebote.html), bundesweite Preise,
+    # ein Abruf je Lauf. robots.txt erlaubt die Seite.
+    aktiv: true
+    # Aktionsgruppen ohne Lebensmittel überspringen.
+    ohne_gruppen: [Spielzeug, Kindermode, Damenmode, Herrenmode, Elektronik, Badezimmer,
+                   Weihnachtsdeko, Pflanzen, Küche, Tierbedarf & Haushalt]
 
 http:
   user_agent: "angebotsscanner/0.1 (privater Gebrauch; +https://github.com/FelixUe/angebotsscanner)"
@@ -73,6 +82,9 @@ ausschluesse:
 #   begriffe: zusätzliche Synonyme
 #   nicht:    Treffer mit diesen Wörtern in Marke/Produkt sind kein Treffer
 regeln:
+  kaese:
+    # Gemeint ist Schnittkäse am Stück oder in Scheiben.
+    nicht: [frischkaese, schmelzkaese, hirtenkaese, kaesekuchen, kaesestange, kaesesahne, kaesesauce, kaesesosse, ofenkaese]
   butter:
     nicht: [margarine, rama, streichfett, kaergarden, buttermilch, spekulatius, mit butter, erdnussbutter]
   milch:

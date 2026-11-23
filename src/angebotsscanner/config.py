@@ -41,6 +41,8 @@ class QuelleEinstellung(BaseModel):
     aktiv: bool = True
     abstand_s: float = 2.0
     max_begriffe: int = 80
+    #: Aktionsgruppen, die gar nicht erst betrachtet werden (Aldi: Kleidung, Deko …)
+    ohne_gruppen: list[str] = Field(default_factory=list)
 
 
 class Http(BaseModel):

@@ -23,6 +23,7 @@ from .historie import Historie
 from .http import Abrufer
 from .modelle import Bedarf
 from .quellen import OfferSource
+from .quellen.aldi_nord import AldiNord
 from .quellen.marktguru import Marktguru
 from .scanner import scanne, vorrat_als_bedarf
 
@@ -36,7 +37,11 @@ def baue_quellen(config: Config, abrufer: Abrufer) -> list[OfferSource]:
         quellen.append(
             Marktguru(abrufer, config.maerkte_fuer("marktguru"), config.apps, mg.max_begriffe)
         )
-    bekannt = {"marktguru"}
+    aldi = config.quelle("aldi_nord")
+    for markt in config.maerkte_fuer("aldi_nord"):
+        if aldi.aktiv:
+            quellen.append(AldiNord(abrufer, markt.name, aldi.ohne_gruppen))
+    bekannt = {"marktguru", "aldi_nord"}
     for m in config.maerkte:
         if m.quelle not in bekannt:
             log.warning("Markt %s: Quelle %s gibt es (noch) nicht", m.name, m.quelle)

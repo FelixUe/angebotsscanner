@@ -31,3 +31,7 @@ def test_normalisiere_umlaute_und_zeichen() -> None:
 def test_teilstring_fuer_ausschluesse() -> None:
     assert text.enthaelt_teil("Salbeibutter", "Salbei")
     assert not text.enthaelt_teil("Butter", "Salbei")
+
+
+def test_skandinavische_zeichen() -> None:
+    assert text.normalisiere("Kærgården") == "kaergarden"

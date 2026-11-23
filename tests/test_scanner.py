@@ -102,5 +102,5 @@ def test_cli_scan(tmp_path: Path, config: Config, monkeypatch, capsys, abrufer) 
     assert rc == 0
     ausgabe = json.loads(capsys.readouterr().out)
     assert ausgabe["einkaufstag"] == "2026-11-27"
-    assert {v["markt"] for v in ausgabe["vorschlaege"]} <= {"EDEKA", "Penny"}
+    assert {v["markt"] for v in ausgabe["vorschlaege"]} <= {"EDEKA", "Penny", "Aldi Nord"}
     assert (tmp_path / "daten" / "preise.sqlite").exists()

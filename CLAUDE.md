@@ -21,6 +21,7 @@ src/angebotsscanner/
   http.py        Abrufer: User-Agent, Mindestabstand, SQLite-Cache
   quellen/       ein Modul je Quelle, Schnittstelle OfferSource.fetch(plz, suchbegriffe)
     marktguru.py EDEKA, Penny … (inoffiziell, Schlüssel von der Startseite)
+    aldi_nord.py __NEXT_DATA__ der Angebotsseite, ein Abruf, Suchbegriffe egal
   text.py        Normalisierung, Wort-/Kompositum-Vergleich
   matching.py    Bedarf ↔ Angebot: sicher / unklar / nein
   historie.py    Preishistorie je Artikel (Slug) in SQLite
@@ -76,13 +77,16 @@ uv venv --python 3.12 && uv pip install -e ".[dev]"
 - **Matching:** Name + Kategorie → sicher; Kategorie heißt wie der Artikel → sicher;
   nur eins von beiden → unklar (wird nicht vorgeschlagen, steht in `unklar`).
   Ausreißer über `regeln.<artikel>.nicht` abfangen, nicht im Code.
+- Aldi liefert keine brauchbare Warengruppe (`kategorie=None`), ein Namenstreffer
+  gilt dort als sicher. Ausreißer wie Frischkäse für „Käse“ deshalb über
+  `nicht`-Regeln abfangen. Aldi-Streichpreise sind meist UVPs.
 - Nie vorschlagen: Blauschimmelkäse, Salbei, Fenchel (`ausschluesse`).
 
 ## Stand und nächste Schritte
 
 1. ✅ MVP: Marktguru (EDEKA, Penny), Matching, Historie, CLI/JSON
-2. Aldi-Nord-Adapter (`aldi-nord.de/angebote.html`, eingebettetes `__NEXT_DATA__`,
-   bundesweit, Wellen Mo und Do)
+2. ✅ Aldi-Nord-Adapter (`aldi-nord.de/angebote.html`, eingebettetes `__NEXT_DATA__`,
+   bundesweit, Wellen Mo und Do, Non-Food über `ohne_gruppen`)
 3. Essensplaner schreibt den vollständigen Wochenzettel in die Mealie-Liste
    „Wocheneinkauf“ (Repo `FelixUe/essensplaner`, Erweiterung von `mealie-sync`)
 4. Scanner liest Bedarf aus dieser Liste und schreibt Angebote hinein

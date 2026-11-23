@@ -11,18 +11,23 @@ Heraus kommt eine Vorschlagsliste: Was lohnt sich diesen Einkauf, wo, zu welchem
 Preis, wie viel gespart, bis wann gültig. Ob etwas wirklich günstig ist, misst der
 Scanner an seiner eigenen Preishistorie, nicht an der Rabattangabe im Prospekt.
 
-> **Status:** MVP. Quelle ist Marktguru (EDEKA, Penny, REWE, Kaufland …). Aldi
-> Nord und die Anbindung an Mealie folgen.
+> **Status:** MVP. Quellen sind Marktguru (EDEKA, Penny, REWE, Kaufland …) und
+> die Angebotsseite von Aldi Nord. Die Anbindung an Mealie folgt.
 
 ## Quellen
 
 | Quelle | Märkte | Art |
 |---|---|---|
 | Marktguru | EDEKA, Penny, Netto, REWE, Kaufland, Lidl … (regional über die PLZ) | **inoffiziell**, standardmäßig aus |
+| Aldi Nord | Aldi Nord (bundesweit gleiche Preise) | öffentliche Angebotsseite, ein Abruf je Lauf |
 
 Marktguru hat keine öffentliche API. Der Adapter fragt die Schnittstelle ab, die
 auch die Webseite nutzt, mit ehrlichem User-Agent, 2 s Abstand und 6 h Cache.
 Das ist nur für den privaten Gebrauch gedacht und geschieht auf eigenes Risiko.
+Aldi Nord fehlt bei Marktguru. Der Adapter liest dort die Daten, die in
+`aldi-nord.de/angebote.html` eingebettet sind (laut robots.txt erlaubt). Die
+Streichpreise sind meist UVPs, deshalb geht die eigene Historie vor.
+
 Sperrt eine Quelle den Zugriff, wird das gemeldet und nicht umgangen.
 
 ## Setup
