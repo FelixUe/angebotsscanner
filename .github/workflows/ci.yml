@@ -1,0 +1,48 @@
+# Prüft jeden Push und jeden Pull Request.
+#
+# Der Home-Server holt sich neue Stände selbst: Er fragt regelmäßig, ob main
+# weiter ist, und baut nur, wenn alle Prüfungen dieses Workflows grün sind.
+# Deshalb braucht das Repo weder Registry noch Secrets, und niemand muss
+# von außen auf den Server zugreifen.
+
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  pruefen:
+    name: Lint und Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Abhängigkeiten
+        run: python -m pip install --upgrade pip && pip install -e ".[dev]"
+      - name: ruff
+        run: ruff check --output-format=github . && ruff format --check --diff .
+      - name: pytest
+        run: pytest -q
+
+  image:
+    name: Image bauen
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: docker build
+        run: docker build -t angebotsscanner:ci .
+      - name: Rauchtest
+        run: docker run --rm angebotsscanner:ci --version

@@ -86,6 +86,10 @@ unangetastet, abgelaufene Hinweise verschwinden, ein zweiter Lauf ändert nichts
 Zugang zu Mealie. `docker compose exec angebotsscanner angebotsscanner gesund`
 zeigt den letzten Lauf.
 
+Automatische Updates ohne Secrets: Ist das Verzeichnis ein `git clone`, holt
+[`deploy/angebotsscanner-update`](deploy/angebotsscanner-update) per Cron neue
+Stände von `main` und baut nur, wenn die CI für genau diesen Commit grün ist.
+
 ## Entwicklung
 
 ```bash

@@ -1,0 +1,51 @@
+#!/bin/sh
+# Holt neue Stände von GitHub und rollt sie aus – nur, wenn die CI grün ist.
+#
+# Läuft per Cron als normaler Benutzer (Mitglied der Gruppe docker):
+#   */15 * * * * /usr/local/bin/angebotsscanner-update 2>&1 | logger -t angebotsscanner-update
+#
+# Nachlesen: journalctl -t angebotsscanner-update
+#
+# Ohne Secrets und ohne Zugriff von außen: Das Repo ist öffentlich, die
+# Prüfungen fragt das Skript über die offene GitHub-API ab (60 Anfragen je
+# Stunde reichen für alle 15 Minuten).
+set -eu
+
+REPO="${ANGEBOTSSCANNER_REPO:-FelixUe/angebotsscanner}"
+DIR="${ANGEBOTSSCANNER_DIR:-/opt/angebotsscanner}"
+cd "$DIR"
+
+git fetch --quiet origin main
+neu=$(git rev-parse origin/main)
+alt=$(git rev-parse HEAD)
+[ "$neu" = "$alt" ] && [ "${1:-}" != "--erzwingen" ] && exit 0
+
+stand=$(curl -fsS -H "Accept: application/vnd.github+json" \
+  "https://api.github.com/repos/$REPO/commits/$neu/check-runs" |
+  python3 -c '
+import json, sys
+runs = json.load(sys.stdin)["check_runs"]
+if not runs or any(r["status"] != "completed" for r in runs):
+    print("offen")
+elif all(r["conclusion"] in ("success", "skipped") for r in runs):
+    print("gruen")
+else:
+    print("rot")
+')
+
+case "$stand" in
+  gruen) ;;
+  offen) exit 0 ;;  # nächster Versuch in 15 Minuten
+  *)
+    # Nur einmal je Stand melden, nicht alle 15 Minuten
+    [ "$(cat .ci-rot 2>/dev/null)" = "$neu" ] && exit 0
+    echo "$neu" > .ci-rot
+    echo "${neu%"${neu#???????}"}: CI rot, bleibe auf ${alt%"${alt#???????}"}"
+    exit 0
+    ;;
+esac
+
+echo "Rollout ${alt%"${alt#???????}"} -> ${neu%"${neu#???????}"}"
+git checkout --quiet --detach "$neu"
+docker compose up -d --build --quiet-pull 2>&1 | tail -n 3
+docker image prune -f --filter "label=org.opencontainers.image.title=Angebotsscanner" >/dev/null

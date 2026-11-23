@@ -99,5 +99,7 @@ set -a; . ./.env; set +a; .venv/bin/angebotsscanner --config config.yaml mealie 
 5. ✅ Betrieb: `angebotsscanner dienst` (So + Mi 19:00, nachholen 12 h, 3 Versuche),
    Healthcheck `gesund`, Image mit config.example.yaml; PLZ, Quellen und Datenort per
    Umgebung (`ANGEBOTSSCANNER_PLZ`, `_QUELLEN`, `_DATEN`). Läuft auf dem NUC unter
-   `/opt/angebotsscanner`, Rollout bisher per `git archive` (siehe Homelab-Repo)
-6. GitHub-Repo, CI und automatischer Rollout wie beim Essensplaner
+   `/opt/angebotsscanner`
+6. ✅ Öffentliches Repo `FelixUe/angebotsscanner`, CI (ruff, pytest, docker build).
+   Rollout zieht der NUC selbst: `deploy/angebotsscanner-update` per Cron alle
+   15 min, baut nur bei grüner CI. Push auf main = Rollout, keine Secrets im Repo

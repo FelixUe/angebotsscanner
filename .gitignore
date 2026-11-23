@@ -11,3 +11,4 @@ config.yaml
 vorrat.yaml
 bedarf.json
 .env
+.ci-rot
