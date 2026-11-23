@@ -99,3 +99,8 @@ uv pip install -e ".[dev]"
 ```
 
 Architektur und Konventionen: [CLAUDE.md](CLAUDE.md).
+
+## Lizenz
+
+MIT, siehe [LICENSE](LICENSE). Marktguru wird inoffiziell abgefragt; die Nutzung
+liegt in der Verantwortung jedes Betreibers.
