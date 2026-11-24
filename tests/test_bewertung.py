@@ -95,3 +95,6 @@ def test_packungen() -> None:
     assert packungen(Bedarf(slug="x", name="x", menge=2, einheit="l"), a) == 1  # passt nicht
     assert packungen(Bedarf(slug="x", name="x", menge=3, einheit="Dose"), a) == 3
     assert packungen(Bedarf(slug="x", name="x"), a) == 1
+    eier = Bedarf(slug="eier", name="Eier", menge=10, einheit="stk")
+    assert packungen(eier, a) == 1  # Packung ohne Stückzahl
+    assert packungen(eier, a.model_copy(update={"menge": 6.0, "einheit": "stk"})) == 2
