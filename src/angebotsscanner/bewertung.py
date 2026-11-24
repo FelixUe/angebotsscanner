@@ -85,8 +85,11 @@ def packungen(bedarf: Bedarf, angebot: Offer) -> int:
     einheit = (bedarf.einheit or "").casefold()
     if einheit in _BASIS and angebot.menge and angebot.einheit:
         basis, faktor = _BASIS[einheit]
-        if basis == angebot.einheit:
+        if basis.casefold() == angebot.einheit.casefold():
             return max(1, min(MAX_PACKUNGEN, math.ceil(bedarf.menge * faktor / angebot.menge)))
+        return 1
+    if einheit in ("stk", "stück"):
+        # Angebot ohne Stückzahl: „Eier (10 Stück)“ ist eine Packung, nicht zehn
         return 1
     # Packung, Dose, Glas …: die Menge ist schon eine Packungszahl
     return max(1, min(MAX_PACKUNGEN, math.ceil(bedarf.menge)))
