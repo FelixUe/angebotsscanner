@@ -6,6 +6,11 @@
 ``nachholen_stunden`` später nachgeholt, fehlgeschlagene bis zu ``versuche``
 Mal im Abstand von ``wiederholen_minuten``.
 
+Ist ``ANGEBOTSSCANNER_AUSLOESER_TOKEN`` gesetzt, nimmt der Dienst außerdem
+Läufe auf Zuruf an (siehe :mod:`angebotsscanner.ausloeser`). Sie laufen in
+derselben Schleife, also nie gleichzeitig mit einem geplanten Lauf, und
+ändern den Zustand des Zeitplans nicht.
+
 Der Zustand liegt in ``<datenverzeichnis>/dienst.json``: wann der Prozess
 zuletzt gelebt hat (Puls), welcher Termin zuletzt bearbeitet wurde und mit
 welchem Ergebnis. ``angebotsscanner gesund`` liest ihn für den Docker-
@@ -25,6 +30,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from .ausloeser import Auftrag, Ausloeser
 from .config import WOCHENTAGE, Betrieb
 
 log = logging.getLogger(__name__)
@@ -119,7 +125,24 @@ def takt(jetzt: datetime, betrieb: Betrieb, pfad: Path, lauf: Callable[[], int])
     return zustand
 
 
-def dienst(betrieb: Betrieb, pfad: Path, lauf: Callable[[], int]) -> int:
+def auftrag_ausfuehren(auftrag: Auftrag, lauf: Callable[[], tuple[int, dict | None]]) -> None:
+    """Einen Lauf auf Zuruf ausführen; der wartende Aufrufer bekommt das Ergebnis."""
+    try:
+        auftrag.code, auftrag.zusammenfassung = lauf()
+    except Exception:
+        log.exception("Lauf auf Zuruf abgebrochen")
+        auftrag.code, auftrag.zusammenfassung = 1, None
+    finally:
+        auftrag.fertig.set()
+
+
+def dienst(
+    betrieb: Betrieb,
+    pfad: Path,
+    lauf: Callable[[], int],
+    ausloeser: Ausloeser | None = None,
+    auf_zuruf: Callable[[], tuple[int, dict | None]] | None = None,
+) -> int:
     zone = ZoneInfo(betrieb.zeitzone)
     for eintrag in betrieb.laeufe:
         parse_lauf(eintrag)  # Tippfehler sofort melden, nicht erst am Sonntag
@@ -129,9 +152,17 @@ def dienst(betrieb: Betrieb, pfad: Path, lauf: Callable[[], int]) -> int:
 
     signal.signal(signal.SIGTERM, beenden)
     log.info("Dienst läuft: %s (%s)", ", ".join(betrieb.laeufe), betrieb.zeitzone)
+    if ausloeser is not None:
+        ausloeser.starten()
     while True:
         takt(datetime.now(zone), betrieb, pfad, lauf)
-        time.sleep(TAKT_S)
+        if ausloeser is None or auf_zuruf is None:
+            time.sleep(TAKT_S)
+            continue
+        auftrag = ausloeser.warte(TAKT_S)
+        if auftrag is not None:
+            log.info("Lauf auf Zuruf")
+            auftrag_ausfuehren(auftrag, auf_zuruf)
 
 
 def gesund(betrieb: Betrieb, pfad: Path, jetzt: datetime | None = None) -> tuple[bool, str]:

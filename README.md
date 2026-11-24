@@ -95,6 +95,12 @@ HA-Seite (Trigger-Template-Sensor plus Benachrichtigung) steht in
 Zugang zu Mealie. `docker compose exec angebotsscanner angebotsscanner gesund`
 zeigt den letzten Lauf.
 
+Lauf auf Zuruf: Mit `ANGEBOTSSCANNER_AUSLOESER_TOKEN` hört der Dienst
+zusätzlich auf `POST /lauf` (Port 8099, nur im Docker-Netz, nicht
+veröffentlicht, `Authorization: Bearer <Token>`). Die Anfrage wartet, bis der
+Lauf fertig ist, und bekommt die Zusammenfassung zurück. Der Essensplaner nutzt
+das, sobald der Wochenzettel in Mealie steht. Läufe laufen nie gleichzeitig.
+
 Automatische Updates ohne Secrets: Ist das Verzeichnis ein `git clone`, holt
 [`deploy/angebotsscanner-update`](deploy/angebotsscanner-update) per Cron neue
 Stände von `main` und baut nur, wenn die CI für genau diesen Commit grün ist.
