@@ -3,7 +3,7 @@
 #     cp .env.example .env   # PLZ, Mealie-URL und -Token eintragen, chmod 600
 #     docker compose up -d --build
 #
-# Der Container braucht keinen offenen Port. Er muss nur Mealie erreichen:
+# Der Container braucht keinen veröffentlichten Port. Er muss nur Mealie erreichen:
 # auf dem Home-Server über das gemeinsame Docker-Netz `proxy`.
 
 services:
@@ -19,6 +19,9 @@ services:
       MEALIE_TOKEN: ${MEALIE_TOKEN:?Mealie-Token in der .env setzen}
       # Optional: Zusammenfassung je Lauf an einen Home-Assistant-Webhook
       HA_WEBHOOK_URL: ${HA_WEBHOOK_URL:-}
+      # Optional: Lauf auf Zuruf (POST /lauf auf Port 8099, nur im Docker-Netz,
+      # nicht veröffentlicht). Ohne Token startet kein Endpunkt.
+      ANGEBOTSSCANNER_AUSLOESER_TOKEN: ${ANGEBOTSSCANNER_AUSLOESER_TOKEN:-}
     volumes:
       # Preishistorie, Cache, Zustand des Zeitplans. Eine eigene vorrat.yaml
       # bindet eine docker-compose.override.yml ein (gitignored):

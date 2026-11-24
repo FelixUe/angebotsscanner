@@ -30,6 +30,7 @@ src/angebotsscanner/
   mealie.py      Bedarf aus der Mealie-Liste lesen, Angebote hineinschreiben
   dienst.py      Zeitplan, Zustand in daten/dienst.json, Healthcheck
   ha.py          Zusammenfassung je Lauf an einen HA-Webhook (optional)
+  ausloeser.py   POST /lauf mit Bearer-Token: Lauf auf Zuruf (optional)
   cli.py         `angebotsscanner scan | angebote | mealie`
 tests/fixtures/  gekürzte echte Antworten (KW 48/2026)
 ```
@@ -106,3 +107,6 @@ set -a; . ./.env; set +a; .venv/bin/angebotsscanner --config config.yaml mealie 
    15 min, baut nur bei grüner CI. Push auf main = Rollout, keine Secrets im Repo
 7. ✅ Zusammenfassung an Home Assistant per Webhook (`HA_WEBHOOK_URL`); HA nicht
    erreichbar = nur Warnung im Log, die Webhook-ID nie loggen
+8. ✅ Lauf auf Zuruf (`ANGEBOTSSCANNER_AUSLOESER_TOKEN`, Port 8099 nur im Netz `proxy`):
+   der Essensplaner stößt nach „Zettel fertig“ einen Lauf an und bekommt die
+   Zusammenfassung zurück. Abarbeitung in der Dienstschleife, nie parallel

@@ -22,6 +22,7 @@ from pathlib import Path
 from pydantic import TypeAdapter
 
 from . import __version__, dienst, ha
+from .ausloeser import Ausloeser
 from .config import Config, lade_config, lade_vorrat
 from .historie import Historie
 from .http import Abrufer
@@ -93,12 +94,19 @@ def mealie_lauf(
     config_pfad: Path | None, vorrat: Path | None, heute: date, dry_run: bool = False
 ) -> int:
     """Bedarf aus der Mealie-Liste lesen, Angebote suchen und hineinschreiben."""
+    return mealie_lauf_mit_zusammenfassung(config_pfad, vorrat, heute, dry_run)[0]
+
+
+def mealie_lauf_mit_zusammenfassung(
+    config_pfad: Path | None, vorrat: Path | None, heute: date, dry_run: bool = False
+) -> tuple[int, dict | None]:
+    """Wie :func:`mealie_lauf`, gibt zusätzlich die Meldung an HA zurück."""
     config = lade_config(config_pfad)
     url = os.environ.get("MEALIE_URL", "").strip()
     token = os.environ.get("MEALIE_TOKEN", "").strip()
     if not url or not token:
         log.error("MEALIE_URL und MEALIE_TOKEN müssen gesetzt sein")
-        return 2
+        return 2, None
     ha_url = os.environ.get("HA_WEBHOOK_URL", "").strip() or None
     liste = MealieListe(url, token, config.mealie.liste, config.mealie.label)
     abrufer = _abrufer(config)
@@ -114,23 +122,26 @@ def mealie_lauf(
         ergebnis = scanne(bedarf, quellen, config, historie, heute)
         if quellen and len(ergebnis.fehler) == len(quellen):
             log.error("Alle Quellen ausgefallen – die Liste bleibt, wie sie ist")
+            meldung = ha.fehlermeldung("alle Quellen ausgefallen", tag)
             if not dry_run:
-                ha.melde(ha_url, ha.fehlermeldung("alle Quellen ausgefallen", tag))
-            return 1
+                ha.melde(ha_url, meldung)
+            return 1, meldung
         ausgefallen = {m.name for q in ergebnis.fehler for m in config.maerkte_fuer(q)}
         bericht = liste.schreibe(ergebnis, zeilen, items, heute, ausgefallen, dry_run=dry_run)
     except MealieFehler as exc:
         log.error("%s", exc)
+        meldung = ha.fehlermeldung(str(exc))
         if not dry_run:
-            ha.melde(ha_url, ha.fehlermeldung(str(exc)))
-        return 1
+            ha.melde(ha_url, meldung)
+        return 1, meldung
     finally:
         abrufer.schliessen()
         historie.schliessen()
         liste.schliessen()
 
+    meldung = ha.zusammenfassung(ergebnis, bericht)
     if not dry_run:
-        ha.melde(ha_url, ha.zusammenfassung(ergebnis, bericht))
+        ha.melde(ha_url, meldung)
     vorsilbe = "Würde " if dry_run else ""
     print(f"Einkauf {tag}: {len(zeilen)} Zeilen gelesen, {len(ergebnis.vorschlaege)} Angebote")
     for titel, eintraege in (
@@ -146,15 +157,18 @@ def mealie_lauf(
         print(f"Behalten (Quelle ausgefallen): {len(bericht.behalten)}")
     for quelle, fehler in ergebnis.fehler.items():
         print(f"Quelle {quelle} ausgefallen: {fehler}")
-    return 0
+    return 0, meldung
 
 
 def cmd_dienst(args: argparse.Namespace) -> int:
     config = lade_config(args.config)
+    token = os.environ.get("ANGEBOTSSCANNER_AUSLOESER_TOKEN", "").strip()
     return dienst.dienst(
         config.betrieb,
         config.datenverzeichnis / "dienst.json",
         lambda: mealie_lauf(args.config, args.vorrat, date.today()),
+        ausloeser=Ausloeser(token) if token else None,
+        auf_zuruf=lambda: mealie_lauf_mit_zusammenfassung(args.config, args.vorrat, date.today()),
     )
 
 
