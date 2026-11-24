@@ -18,7 +18,9 @@ services:
       MEALIE_URL: ${MEALIE_URL:-http://mealie:9000}
       MEALIE_TOKEN: ${MEALIE_TOKEN:?Mealie-Token in der .env setzen}
     volumes:
-      # Preishistorie, Cache, Zustand des Zeitplans – und optional vorrat.yaml
+      # Preishistorie, Cache, Zustand des Zeitplans. Eine eigene vorrat.yaml
+      # bindet eine docker-compose.override.yml ein (gitignored):
+      #   services: {angebotsscanner: {volumes: ["./vorrat.yaml:/daten/vorrat.yaml:ro"]}}
       - angebotsscanner-daten:/daten
     networks:
       - proxy

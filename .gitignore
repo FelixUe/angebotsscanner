@@ -12,3 +12,4 @@ vorrat.yaml
 bedarf.json
 .env
 .ci-rot
+docker-compose.override.yml
