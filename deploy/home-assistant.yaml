@@ -1,0 +1,71 @@
+# Home-Assistant-Paket für den Angebotsscanner.
+#
+# Ablegen als config/packages/angebotsscanner.yaml und in configuration.yaml
+#   homeassistant:
+#     packages: !include_dir_named packages
+# In secrets.yaml eine zufällige Webhook-ID eintragen:
+#   angebotsscanner_webhook: <zufällig, z. B. python3 -c "import secrets;print(secrets.token_urlsafe(24))">
+# Beim Scanner: HA_WEBHOOK_URL=http://<home-assistant>:8123/api/webhook/<dieselbe ID>
+#
+# Der Sensor ist trigger-basiert: Er übersteht einen Neustart von HA mit
+# Zustand und Attributen. Meldet der Scanner einen Fehler, bleiben die
+# letzten Angebote stehen und nur Status und Meldung ändern sich.
+
+template:
+  - triggers:
+      - trigger: webhook
+        webhook_id: !secret angebotsscanner_webhook
+        allowed_methods: [POST]
+        local_only: true
+    sensor:
+      - name: Angebotsscanner
+        unique_id: angebotsscanner_zusammenfassung
+        icon: mdi:tag-multiple
+        unit_of_measurement: Angebote
+        state: >-
+          {{ trigger.json.anzahl if trigger.json.status == 'ok'
+             else (this.state if this.state is number else 0) }}
+        attributes:
+          status: "{{ trigger.json.status }}"
+          zeit: "{{ trigger.json.zeit }}"
+          meldung: "{{ trigger.json.meldung | default('') }}"
+          einkaufstag: >-
+            {{ trigger.json.einkaufstag or this.attributes.get('einkaufstag') }}
+          ersparnis_euro: >-
+            {{ trigger.json.ersparnis_euro if trigger.json.status == 'ok'
+               else this.attributes.get('ersparnis_euro', 0) }}
+          neu: "{{ trigger.json.neu | default(0) }}"
+          maerkte: >-
+            {{ trigger.json.maerkte if trigger.json.status == 'ok'
+               else this.attributes.get('maerkte', {}) }}
+          fehler: "{{ trigger.json.fehler | default({}) }}"
+          angebote: >-
+            {{ trigger.json.angebote if trigger.json.status == 'ok'
+               else this.attributes.get('angebote', []) }}
+          text: >-
+            {{ trigger.json.text if trigger.json.status == 'ok'
+               else this.attributes.get('text', '') }}
+
+automation:
+  - id: angebotsscanner_benachrichtigung
+    alias: Angebotsscanner – Zusammenfassung
+    description: Nach jedem Lauf eine Benachrichtigung (ersetzt die vorige).
+    mode: queued
+    triggers:
+      - trigger: state
+        entity_id: sensor.angebotsscanner
+        attribute: zeit
+    conditions:
+      - condition: template
+        value_template: "{{ trigger.to_state.attributes.zeit is not none }}"
+    actions:
+      - action: persistent_notification.create
+        data:
+          notification_id: angebotsscanner
+          title: >-
+            {{ 'Angebotsscanner: Fehler'
+               if trigger.to_state.attributes.status == 'fehler'
+               else 'Angebote für den Einkauf' }}
+          message: >-
+            {% set a = trigger.to_state.attributes %}
+            {% if a.status == 'fehler' %}⚠️ {{ a.meldung }}{% else %}{{ a.text }}{% endif %}

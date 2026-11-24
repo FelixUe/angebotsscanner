@@ -17,6 +17,8 @@ services:
       ANGEBOTSSCANNER_QUELLEN: ${ANGEBOTSSCANNER_QUELLEN:-}
       MEALIE_URL: ${MEALIE_URL:-http://mealie:9000}
       MEALIE_TOKEN: ${MEALIE_TOKEN:?Mealie-Token in der .env setzen}
+      # Optional: Zusammenfassung je Lauf an einen Home-Assistant-Webhook
+      HA_WEBHOOK_URL: ${HA_WEBHOOK_URL:-}
     volumes:
       # Preishistorie, Cache, Zustand des Zeitplans. Eine eigene vorrat.yaml
       # bindet eine docker-compose.override.yml ein (gitignored):

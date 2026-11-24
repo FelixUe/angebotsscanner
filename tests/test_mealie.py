@@ -380,3 +380,39 @@ def test_cli_mealie_ohne_zugang(tmp_path, config: Config, monkeypatch) -> None:
     pfad.write_text(yaml.safe_dump(config.model_dump(mode="json")), encoding="utf-8")
     monkeypatch.delenv("MEALIE_URL", raising=False)
     assert cli.main(["--config", str(pfad), "mealie"]) == 2
+
+
+def test_cli_mealie_meldet_an_home_assistant(
+    tmp_path, config: Config, mealie, abrufer, monkeypatch
+) -> None:
+    import json
+
+    import yaml
+
+    from angebotsscanner import ha
+
+    pfad = tmp_path / "config.yaml"
+    pfad.write_text(yaml.safe_dump(config.model_dump(mode="json")), encoding="utf-8")
+    monkeypatch.setenv("MEALIE_URL", "http://mealie:9000")
+    monkeypatch.setenv("MEALIE_TOKEN", "geheim")
+    monkeypatch.setenv("HA_WEBHOOK_URL", "http://172.30.0.1:8123/api/webhook/test")
+    monkeypatch.setattr(cli, "_abrufer", lambda _c: abrufer)
+    monkeypatch.setattr(
+        cli, "MealieListe", partial(MealieListe, transport=httpx.MockTransport(mealie))
+    )
+    gemeldet: list[dict] = []
+
+    def ha_server(request: httpx.Request) -> httpx.Response:
+        gemeldet.append(json.loads(request.content))
+        return httpx.Response(200)
+
+    echt = ha.melde
+    monkeypatch.setattr(
+        ha, "melde", lambda url, daten: echt(url, daten, httpx.MockTransport(ha_server))
+    )
+    assert cli.main(["--config", str(pfad), "mealie", "--heute", "2026-11-23"]) == 0
+    assert len(gemeldet) == 1
+    m = gemeldet[0]
+    assert m["status"] == "ok" and m["einkaufstag"] == "2026-11-27"
+    assert m["anzahl"] == len(m["angebote"]) > 0
+    assert m["text"].startswith(f"**{m['anzahl']} Angebote** für den Einkauf am 27.11.")

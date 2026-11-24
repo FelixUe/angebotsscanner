@@ -78,6 +78,15 @@ unangetastet, abgelaufene Hinweise verschwinden, ein zweiter Lauf ändert nichts
 }
 ```
 
+## Home Assistant
+
+Mit `HA_WEBHOOK_URL` schickt jeder echte Lauf eine Zusammenfassung an einen
+Home-Assistant-Webhook: Anzahl, geschätzte Ersparnis, Angebote je Markt,
+ausgefallene Quellen und einen fertigen Markdown-Text. Läuft etwas schief
+(Mealie weg, alle Quellen aus), kommt `status: fehler`. Ein Beispiel für die
+HA-Seite (Trigger-Template-Sensor plus Benachrichtigung) steht in
+[`deploy/home-assistant.yaml`](deploy/home-assistant.yaml).
+
 ## Betrieb im Container
 
 `cp .env.example .env`, PLZ und Mealie-Token eintragen, dann

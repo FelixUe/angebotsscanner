@@ -21,7 +21,7 @@ from pathlib import Path
 
 from pydantic import TypeAdapter
 
-from . import __version__, dienst
+from . import __version__, dienst, ha
 from .config import Config, lade_config, lade_vorrat
 from .historie import Historie
 from .http import Abrufer
@@ -99,6 +99,7 @@ def mealie_lauf(
     if not url or not token:
         log.error("MEALIE_URL und MEALIE_TOKEN müssen gesetzt sein")
         return 2
+    ha_url = os.environ.get("HA_WEBHOOK_URL", "").strip() or None
     liste = MealieListe(url, token, config.mealie.liste, config.mealie.label)
     abrufer = _abrufer(config)
     historie = Historie(config.datenverzeichnis / "preise.sqlite")
@@ -113,17 +114,23 @@ def mealie_lauf(
         ergebnis = scanne(bedarf, quellen, config, historie, heute)
         if quellen and len(ergebnis.fehler) == len(quellen):
             log.error("Alle Quellen ausgefallen – die Liste bleibt, wie sie ist")
+            if not dry_run:
+                ha.melde(ha_url, ha.fehlermeldung("alle Quellen ausgefallen", tag))
             return 1
         ausgefallen = {m.name for q in ergebnis.fehler for m in config.maerkte_fuer(q)}
         bericht = liste.schreibe(ergebnis, zeilen, items, heute, ausgefallen, dry_run=dry_run)
     except MealieFehler as exc:
         log.error("%s", exc)
+        if not dry_run:
+            ha.melde(ha_url, ha.fehlermeldung(str(exc)))
         return 1
     finally:
         abrufer.schliessen()
         historie.schliessen()
         liste.schliessen()
 
+    if not dry_run:
+        ha.melde(ha_url, ha.zusammenfassung(ergebnis, bericht))
     vorsilbe = "Würde " if dry_run else ""
     print(f"Einkauf {tag}: {len(zeilen)} Zeilen gelesen, {len(ergebnis.vorschlaege)} Angebote")
     for titel, eintraege in (
