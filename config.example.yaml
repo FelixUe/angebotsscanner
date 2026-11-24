@@ -35,7 +35,7 @@ quellen:
     aktiv: false
     # Sekunden zwischen zwei Anfragen.
     abstand_s: 2
-    max_begriffe: 100
+    max_begriffe: 120
   aldi_nord:
     # Eigene Angebotsseite (aldi-nord.de/angebote.html), bundesweite Preise,
     # ein Abruf je Lauf. robots.txt erlaubt die Seite.
